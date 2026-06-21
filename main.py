@@ -568,7 +568,7 @@ def build_html_email(items: Sequence[FeedItem]) -> HtmlContent:
                 border-top:1px solid #d0d0d0;
                 background:#f7f7f7;
             ">
-                <a href="{previous_link}">
+                <a href="{ARCHIVE_BASE_URL}/archive/{previous_link}">
                     ← Previous Week
                 </a>
             </div>
