@@ -1,20 +1,14 @@
-from CONFIG import SEEN_FILE, MAX_ARTICLE_AGE_DAYS
+import hashlib
+import json
 from datetime import datetime, timedelta, timezone
 
-import json
-import hashlib
+from CONFIG import MAX_ARTICLE_AGE_DAYS, SEEN_FILE
+
 
 def article_id(item: Any) -> str:
-    raw = (
-        item.get("id")
-        or item.get("guid")
-        or item.get("link")
-        or item.get("title")
-    )
+    raw = item.get("id") or item.get("guid") or item.get("link") or item.get("title")
 
-    return hashlib.sha256(
-        str(raw).encode("utf-8")
-    ).hexdigest()
+    return hashlib.sha256(str(raw).encode("utf-8")).hexdigest()
 
 
 def load_seen_articles() -> dict[str, dict]:
@@ -22,18 +16,12 @@ def load_seen_articles() -> dict[str, dict]:
         return {}
 
     try:
-        return json.loads(
-            SEEN_FILE.read_text(
-                encoding="utf-8"
-            )
-        )
+        return json.loads(SEEN_FILE.read_text(encoding="utf-8"))
     except Exception:
         return {}
 
 
-def save_seen_articles(
-    seen: dict[str, dict]
-) -> None:
+def save_seen_articles(seen: dict[str, dict]) -> None:
     SEEN_FILE.parent.mkdir(parents=True, exist_ok=True)
     SEEN_FILE.write_text(
         json.dumps(
@@ -45,23 +33,14 @@ def save_seen_articles(
     )
 
 
-def prune_seen_articles(
-    seen: dict[str, dict]
-) -> dict[str, dict]:
-    cutoff = (
-        datetime.now(timezone.utc)
-        - timedelta(
-            days=MAX_ARTICLE_AGE_DAYS
-        )
-    )
+def prune_seen_articles(seen: dict[str, dict]) -> dict[str, dict]:
+    cutoff = datetime.now(timezone.utc) - timedelta(days=MAX_ARTICLE_AGE_DAYS)
 
     result = {}
 
     for key, value in seen.items():
         try:
-            first_seen = datetime.fromisoformat(
-                value["first_seen"]
-            )
+            first_seen = datetime.fromisoformat(value["first_seen"])
 
             if first_seen >= cutoff:
                 result[key] = value
@@ -70,3 +49,4 @@ def prune_seen_articles(
             pass
 
     return result
+
