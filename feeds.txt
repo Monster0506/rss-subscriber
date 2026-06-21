@@ -1,0 +1,3 @@
+https://blog.python.org/feeds/posts/default
+https://hnrss.org/frontpage
+https://bubbles.town/briefing/feed
