@@ -12,3 +12,4 @@ https://gwern.net/rss.xml
 https://devblogs.microsoft.com/oldnewthing/feed/
 https://drewdevault.com/blog/index.xml
 https://indieblog.page/weeklyfeed?num=25
+https://lobste.rs/rss
