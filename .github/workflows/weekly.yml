@@ -1,0 +1,81 @@
+name: Weekly RSS Digest
+
+on:
+  schedule:
+    - cron: "0 13 * * 0"
+
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: rss-digest
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup uv
+        uses: astral-sh/setup-uv@v5
+
+      - name: Setup Python
+        run: uv python install
+
+      - name: Install dependencies
+        run: uv sync
+
+      - name: Fetch Pages URL
+        id: pages
+        continue-on-error: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          URL=$(gh api "repos/$GITHUB_REPOSITORY/pages" --jq '.html_url')
+          echo "url=$URL" >> "$GITHUB_OUTPUT"
+          echo "Pages URL: $URL"
+
+      - name: Generate digest
+        run: |
+          uv run python main.py --send
+        env:
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          RECIPIENT_EMAIL: ${{ secrets.RECIPIENT_EMAIL }}
+          SENDER_EMAIL: ${{ secrets.SENDER_EMAIL }}
+
+          ARCHIVE_BASE_URL: ${{ steps.pages.outputs.url || 'https://monster0506.github.io/rss-subscriber' }}
+
+      - name: Commit generated site
+        env:
+          GIT_AUTHOR_NAME: ${{ secrets.GIT_AUTHOR_NAME }}
+          GIT_AUTHOR_EMAIL: ${{ secrets.GIT_AUTHOR_EMAIL }}
+        run: |
+          git config user.name "$GIT_AUTHOR_NAME"
+          git config user.email "$GIT_AUTHOR_EMAIL"
+
+          git add site
+
+          if git diff --cached --quiet; then
+            echo "No changes"
+          else
+            git commit -m "Weekly digest $(date -u +%F)"
+            git push
+          fi
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages Artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+      - name: Deploy Pages
+        uses: actions/deploy-pages@v4
