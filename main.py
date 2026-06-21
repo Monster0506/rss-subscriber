@@ -8,7 +8,8 @@ from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any
 from concurrent.futures import ThreadPoolExecutor, as_completed
-
+import json
+import hashlib
 
 import feedparser
 import resend
@@ -21,14 +22,15 @@ SITE_DIR = Path("site")
 ARCHIVE_DIR = SITE_DIR / "archive"
 INDEX_FILE = SITE_DIR / "index.html"
 
-
+SEEN_FILE = SITE_DIR / "seen_articles.json"
+MAX_ARTICLE_AGE_DAYS = 180
 
 RECIPIENT_EMAIL = os.environ.get("RECIPIENT_EMAIL")
 SENDER_EMAIL = os.environ.get("SENDER_EMAIL")
 RESEND_API_KEY = os.environ.get("RESEND_API_KEY")
 ARCHIVE_BASE_URL = os.environ.get("ARCHIVE_BASE_URL")
 
-DAYS_BACK = 7
+DAYS_BACK = 30
 
 TAG_RE = re.compile(r"<[^>]+>")
 
@@ -41,6 +43,71 @@ class FeedItem:
     source: str
     published: datetime
 
+def article_id(item: Any) -> str:
+    raw = (
+        item.get("id")
+        or item.get("guid")
+        or item.get("link")
+        or item.get("title")
+    )
+
+    return hashlib.sha256(
+        str(raw).encode("utf-8")
+    ).hexdigest()
+
+
+def load_seen_articles() -> dict[str, dict]:
+    if not SEEN_FILE.exists():
+        return {}
+
+    try:
+        return json.loads(
+            SEEN_FILE.read_text(
+                encoding="utf-8"
+            )
+        )
+    except Exception:
+        return {}
+
+
+def save_seen_articles(
+    seen: dict[str, dict]
+) -> None:
+    SEEN_FILE.write_text(
+        json.dumps(
+            seen,
+            indent=2,
+            sort_keys=True,
+        ),
+        encoding="utf-8",
+    )
+
+
+def prune_seen_articles(
+    seen: dict[str, dict]
+) -> dict[str, dict]:
+    cutoff = (
+        datetime.now(timezone.utc)
+        - timedelta(
+            days=MAX_ARTICLE_AGE_DAYS
+        )
+    )
+
+    result = {}
+
+    for key, value in seen.items():
+        try:
+            first_seen = datetime.fromisoformat(
+                value["first_seen"]
+            )
+
+            if first_seen >= cutoff:
+                result[key] = value
+
+        except Exception:
+            pass
+
+    return result
 
 def clean_summary(summary: str) -> str:
     summary = TAG_RE.sub(" ", summary)
@@ -50,6 +117,7 @@ def clean_summary(summary: str) -> str:
 def fetch_feed(
     url: str,
     cutoff: datetime,
+    seen: dict[str, dict],
 ) -> list[FeedItem]:
     print(f"Fetching: {url}")
 
@@ -76,10 +144,25 @@ def fetch_feed(
             *published_struct[:6],
             tzinfo=timezone.utc,
         )
+        article_key = article_id(item)
+        
 
-        if pub_date < cutoff:
+
+        if article_key in seen: 
+            print(f"Found: {item.title}")
             continue
 
+        if pub_date <cutoff:
+            continue
+        
+        seen[article_key] = {
+            "link": str(item.link),
+            "first_seen": datetime.now(
+                timezone.utc
+            ).isoformat(),
+        }
+        
+        
         items.append(
             FeedItem(
                 title=str(item.title),
@@ -118,31 +201,44 @@ def load_feeds(filepath: Path) -> list[str]:
 
     return feeds
 
+
 def fetch_recent_items(
     feed_urls: Sequence[str],
 ) -> list[FeedItem]:
+
     cutoff = (
         datetime.now(timezone.utc)
         - timedelta(days=DAYS_BACK)
     )
 
+    seen = prune_seen_articles(
+        load_seen_articles()
+    )
+
     all_items: list[FeedItem] = []
 
-    max_workers = min(32, len(feed_urls))
+    max_workers = min(
+        32,
+        len(feed_urls),
+    )
 
     with ThreadPoolExecutor(
         max_workers=max_workers
     ) as executor:
+
         futures = {
             executor.submit(
                 fetch_feed,
                 url,
                 cutoff,
+                seen,
             ): url
             for url in feed_urls
         }
 
-        for future in as_completed(futures):
+        for future in as_completed(
+            futures
+        ):
             url = futures[future]
 
             try:
@@ -151,8 +247,11 @@ def fetch_recent_items(
                 )
             except Exception as exc:
                 print(
-                    f"Error fetching {url}: {exc}"
+                    f"Error fetching "
+                    f"{url}: {exc}"
                 )
+
+    save_seen_articles(seen)
 
     all_items.sort(
         key=lambda item: item.published,
@@ -160,6 +259,10 @@ def fetch_recent_items(
     )
 
     return all_items
+
+
+
+
 def build_archive_index() -> str:
     files = sorted(
         ARCHIVE_DIR.glob("*.html"),
