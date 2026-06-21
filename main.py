@@ -20,7 +20,7 @@ RECIPIENT_EMAIL = os.environ.get("RECIPIENT_EMAIL")
 SENDER_EMAIL = os.environ.get("SENDER_EMAIL")
 RESEND_API_KEY = os.environ.get("RESEND_API_KEY")
 
-DAYS_BACK = 24
+DAYS_BACK = 7
 
 TAG_RE = re.compile(r"<[^>]+>")
 
