@@ -23,11 +23,12 @@ def send_email(html_content: HtmlContent) -> None:
         raise RuntimeError("SENDER_EMAIL environment variable is not set")
 
     resend.api_key = RESEND_API_KEY
+    today = datetime.now().strftime("%Y-%m-%d")
 
     params: resend.Emails.SendParams = {
         "from": SENDER_EMAIL,
         "to": [RECIPIENT_EMAIL],
-        "subject": "Your Weekly RSS Digest",
+        "subject": f"Your Weekly RSS Digest for {today}",
         "html": html_content,
     }
     email: Any = resend.Emails.send(params)
