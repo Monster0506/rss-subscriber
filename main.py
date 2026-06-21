@@ -7,6 +7,8 @@ from dataclasses import dataclass
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any
+from concurrent.futures import ThreadPoolExecutor, as_completed
+
 
 import feedparser
 import resend
@@ -39,7 +41,60 @@ def clean_summary(summary: str) -> str:
     summary = html.unescape(summary)
     summary = " ".join(summary.split())
     return summary[:300]
+def fetch_feed(
+    url: str,
+    cutoff: datetime,
+) -> list[FeedItem]:
+    print(f"Fetching: {url}")
 
+    feed: Any = feedparser.parse(url)
+
+    if feed.bozo:
+        print(
+            f"  Warning: Could not parse {url} properly.",
+            feed.bozo_exception,
+        )
+
+    items: list[FeedItem] = []
+
+    for item in feed.entries:
+        published_struct = (
+            item.get("published_parsed")
+            or item.get("updated_parsed")
+        )
+
+        if not published_struct:
+            continue
+
+        pub_date = datetime(
+            *published_struct[:6],
+            tzinfo=timezone.utc,
+        )
+
+        if pub_date < cutoff:
+            continue
+
+        items.append(
+            FeedItem(
+                title=str(item.title),
+                link=str(item.link),
+                summary=clean_summary(
+                    item.get(
+                        "summary",
+                        "No summary available.",
+                    )
+                ),
+                source=str(
+                    feed.feed.get(
+                        "title",
+                        "Unknown Source",
+                    )
+                ),
+                published=pub_date,
+            )
+        )
+
+    return items
 
 def load_feeds(filepath: Path) -> list[str]:
     feeds: list[str] = []
@@ -57,59 +112,41 @@ def load_feeds(filepath: Path) -> list[str]:
 
     return feeds
 
+def fetch_recent_items(
+    feed_urls: Sequence[str],
+) -> list[FeedItem]:
+    cutoff = (
+        datetime.now(timezone.utc)
+        - timedelta(days=DAYS_BACK)
+    )
 
-def fetch_recent_items(feed_urls: Sequence[str]) -> list[FeedItem]:
     all_items: list[FeedItem] = []
 
-    cutoff = datetime.now(timezone.utc) - timedelta(days=DAYS_BACK)
+    max_workers = min(32, len(feed_urls))
 
-    for url in feed_urls:
-        print(f"Fetching: {url}")
+    with ThreadPoolExecutor(
+        max_workers=max_workers
+    ) as executor:
+        futures = {
+            executor.submit(
+                fetch_feed,
+                url,
+                cutoff,
+            ): url
+            for url in feed_urls
+        }
 
-        feed: Any = feedparser.parse(url)
+        for future in as_completed(futures):
+            url = futures[future]
 
-        if feed.bozo:
-            print(
-                f"  Warning: Could not parse {url} properly.",
-                feed.bozo_exception,
-            )
-
-        for item in feed.entries:
-            published_struct = (
-                item.get("published_parsed")
-                or item.get("updated_parsed")
-            )
-
-            if not published_struct:
-                continue
-
-            pub_date = datetime(
-                *published_struct[:6],
-                tzinfo=timezone.utc,
-            )
-
-            if pub_date < cutoff:
-                continue
-
-            all_items.append(
-                FeedItem(
-                    title=str(item.title),
-                    link=str(item.link),
-                    summary=clean_summary(
-                        item.get(
-                            "summary",
-                            "No summary available.",
-                        )
-                    ),
-                    source=str(
-                        feed.feed.get(
-                            "title",
-                            "Unknown Source",
-                        )
-                    ),
-                    published=pub_date,
+            try:
+                all_items.extend(
+                    future.result()
                 )
-            )
+            except Exception as exc:
+                print(
+                    f"Error fetching {url}: {exc}"
+                )
 
     all_items.sort(
         key=lambda item: item.published,
@@ -117,6 +154,7 @@ def fetch_recent_items(feed_urls: Sequence[str]) -> list[FeedItem]:
     )
 
     return all_items
+
 
 
 def build_html_email(items: Sequence[FeedItem]) -> HtmlContent:
@@ -391,7 +429,7 @@ def main() -> None:
         print("Sending email...")
         send_email(html_content)
     else:
-        output_file = Path("demo.html")
+        output_file = Path("feed.html")
 
         output_file.write_text(
             html_content,
