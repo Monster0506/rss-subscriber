@@ -25,12 +25,17 @@ jobs:
 
       - name: Setup uv
         uses: astral-sh/setup-uv@v5
+        with:
+          enable-cache: true
+          cache-dependency-glob: |
+            uv.lock
+            pyproject.toml
 
       - name: Setup Python
-        run: uv python install
+        run: uv python install 3.14
 
       - name: Install dependencies
-        run: uv sync
+        run: uv sync --locked --no-dev
 
       - name: Fetch Pages URL
         id: pages
@@ -49,7 +54,6 @@ jobs:
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
           RECIPIENT_EMAIL: ${{ secrets.RECIPIENT_EMAIL }}
           SENDER_EMAIL: ${{ secrets.SENDER_EMAIL }}
-
           ARCHIVE_BASE_URL: ${{ steps.pages.outputs.url || 'https://monster0506.github.io/rss-subscriber' }}
 
       - name: Commit generated site
