@@ -152,4 +152,3 @@ def fetch_recent_items(
     )
 
     return all_items
-

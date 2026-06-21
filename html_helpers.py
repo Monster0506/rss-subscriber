@@ -319,4 +319,3 @@ def build_html_email(items: Sequence[FeedItem]) -> HtmlContent:
     html_parts.append("</div></body></html>")
 
     return "".join(html_parts)
-

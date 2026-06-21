@@ -1,6 +1,6 @@
 import sys
 from typing import Any
-
+from datetime import datetime
 import resend
 
 from CONFIG import FEEDS_FILE, INDEX_FILE
@@ -75,4 +75,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-

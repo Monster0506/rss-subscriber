@@ -49,4 +49,3 @@ def prune_seen_articles(seen: dict[str, dict]) -> dict[str, dict]:
             pass
 
     return result
-
