@@ -1,6 +1,4 @@
 import html
-import os
-import re
 import sys
 from collections.abc import Sequence
 from dataclasses import dataclass
@@ -8,31 +6,13 @@ from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any
 from concurrent.futures import ThreadPoolExecutor, as_completed
-import json
-import hashlib
 
 import feedparser
 import resend
-
+from CONFIG import FEEDS_FILE, DAYS_BACK, TAG_RE, ARCHIVE_BASE_URL, ARCHIVE_DIR, INDEX_FILE
+from storage_helpers import prune_seen_articles, load_seen_articles, article_id, save_seen_articles
 
 type HtmlContent = str
-
-FEEDS_FILE = Path("feeds.txt")
-SITE_DIR = Path("site")
-ARCHIVE_DIR = SITE_DIR / "archive"
-INDEX_FILE = SITE_DIR / "index.html"
-
-SEEN_FILE = SITE_DIR / "seen_articles.json"
-MAX_ARTICLE_AGE_DAYS = 180
-
-RECIPIENT_EMAIL = os.environ.get("RECIPIENT_EMAIL")
-SENDER_EMAIL = os.environ.get("SENDER_EMAIL")
-RESEND_API_KEY = os.environ.get("RESEND_API_KEY")
-ARCHIVE_BASE_URL = os.environ.get("ARCHIVE_BASE_URL")
-
-DAYS_BACK = 30
-
-TAG_RE = re.compile(r"<[^>]+>")
 
 
 @dataclass(slots=True, frozen=True)
@@ -42,72 +22,6 @@ class FeedItem:
     summary: str
     source: str
     published: datetime
-
-def article_id(item: Any) -> str:
-    raw = (
-        item.get("id")
-        or item.get("guid")
-        or item.get("link")
-        or item.get("title")
-    )
-
-    return hashlib.sha256(
-        str(raw).encode("utf-8")
-    ).hexdigest()
-
-
-def load_seen_articles() -> dict[str, dict]:
-    if not SEEN_FILE.exists():
-        return {}
-
-    try:
-        return json.loads(
-            SEEN_FILE.read_text(
-                encoding="utf-8"
-            )
-        )
-    except Exception:
-        return {}
-
-
-def save_seen_articles(
-    seen: dict[str, dict]
-) -> None:
-    SEEN_FILE.write_text(
-        json.dumps(
-            seen,
-            indent=2,
-            sort_keys=True,
-        ),
-        encoding="utf-8",
-    )
-
-
-def prune_seen_articles(
-    seen: dict[str, dict]
-) -> dict[str, dict]:
-    cutoff = (
-        datetime.now(timezone.utc)
-        - timedelta(
-            days=MAX_ARTICLE_AGE_DAYS
-        )
-    )
-
-    result = {}
-
-    for key, value in seen.items():
-        try:
-            first_seen = datetime.fromisoformat(
-                value["first_seen"]
-            )
-
-            if first_seen >= cutoff:
-                result[key] = value
-
-        except Exception:
-            pass
-
-    return result
 
 def clean_summary(summary: str) -> str:
     summary = TAG_RE.sub(" ", summary)
