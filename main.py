@@ -26,7 +26,7 @@ INDEX_FILE = SITE_DIR / "index.html"
 RECIPIENT_EMAIL = os.environ.get("RECIPIENT_EMAIL")
 SENDER_EMAIL = os.environ.get("SENDER_EMAIL")
 RESEND_API_KEY = os.environ.get("RESEND_API_KEY")
-ARCHIVE_BASE_URL = os.environ.get("ARCHIVE_URL")
+ARCHIVE_BASE_URL = os.environ.get("ARCHIVE_BASE_URL")
 
 DAYS_BACK = 7
 
