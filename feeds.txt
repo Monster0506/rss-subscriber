@@ -1,3 +1,14 @@
-https://blog.python.org/feeds/posts/default
+https://blog.python.org/rss.xml
 https://hnrss.org/frontpage
-https://bubbles.town/briefing/feed
+https://bubbles.town/weekly/feed
+https://simonwillison.net/atom/everything/
+https://pluralistic.net/feed/
+https://feed.tedium.co/
+https://arestless.rest/blog.rss
+https://wingolog.org/feed/atom
+https://fasterthanli.me/index.xml
+https://nullprogram.com/feed/
+https://gwern.net/rss.xml
+https://devblogs.microsoft.com/oldnewthing/feed/
+https://drewdevault.com/blog/index.xml
+https://indieblog.page/weeklyfeed?num=25
