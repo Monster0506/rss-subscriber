@@ -17,6 +17,10 @@ import resend
 type HtmlContent = str
 
 FEEDS_FILE = Path("feeds.txt")
+SITE_DIR = Path("site")
+ARCHIVE_DIR = SITE_DIR / "archive"
+INDEX_FILE = SITE_DIR / "index.html"
+
 
 RECIPIENT_EMAIL = os.environ.get("RECIPIENT_EMAIL")
 SENDER_EMAIL = os.environ.get("SENDER_EMAIL")
@@ -154,12 +158,100 @@ def fetch_recent_items(
     )
 
     return all_items
+def build_archive_index() -> str:
+    files = sorted(
+        ARCHIVE_DIR.glob("*.html"),
+        reverse=True,
+    )
 
+    items = []
 
+    for file in files:
+        items.append(
+            f"""
+            <li style="margin:12px 0;">
+                <a href="archive/{file.name}">
+                    {file.stem}
+                </a>
+            </li>
+            """
+        )
+
+    return f"""
+    <html>
+    <body style="
+        background:#d4d0c8;
+        font-family:Segoe UI,Tahoma,Arial,sans-serif;
+        padding:24px;
+        font-size:18px;
+    ">
+        <div style="
+            max-width:1000px;
+            margin:0 auto;
+            background:white;
+            border:1px solid #404040;
+        ">
+            <div style="
+                background:#ececec;
+                padding:16px;
+                font-size:24px;
+                font-weight:600;
+            ">
+                RSS Digest Archive
+            </div>
+
+            <div style="padding:24px;">
+                <ul>
+                    {''.join(items)}
+                </ul>
+            </div>
+        </div>
+    </body>
+    </html>
+    """
+def write_archive(
+    html_content: str,
+) -> Path:
+    ARCHIVE_DIR.mkdir(
+        parents=True,
+        exist_ok=True,
+    )
+
+    filename = (
+        datetime.now()
+        .strftime("%Y-%m-%d")
+        + ".html"
+    )
+
+    outfile = ARCHIVE_DIR / filename
+
+    outfile.write_text(
+        html_content,
+        encoding="utf-8",
+    )
+
+    return outfile
 
 def build_html_email(items: Sequence[FeedItem]) -> HtmlContent:
     generated = datetime.now().strftime("%Y-%m-%d %H:%M")
 
+    current_file = (
+        datetime.now()
+        .strftime("%Y-%m-%d")
+        + ".html"
+    )
+
+    archive_files = sorted(
+        f.name
+        for f in ARCHIVE_DIR.glob("*.html")
+    )
+
+    previous_link = None
+
+    if archive_files:
+        previous_link = archive_files[-1]
+        
+        
     sources: dict[str, list[FeedItem]] = {}
 
     for item in items:
@@ -250,7 +342,7 @@ def build_html_email(items: Sequence[FeedItem]) -> HtmlContent:
             font-weight:600;
             font-size:17px;
         ">
-            Weekly Summary
+            <a href="https://monster0506.github.io/rss-subscriber/">Weekly Summary</a>
         </div>
         """
     )
@@ -352,7 +444,20 @@ def build_html_email(items: Sequence[FeedItem]) -> HtmlContent:
         html_parts.append("</div>")
 
     html_parts.append("</div>")
-
+    if previous_link:
+        html_parts.append(
+            f"""
+            <div style="
+                padding:14px;
+                border-top:1px solid #d0d0d0;
+                background:#f7f7f7;
+            ">
+                <a href="{previous_link}">
+                    ← Previous Week
+                </a>
+            </div>
+            """
+        )
     html_parts.append(
         f"""
         <div style="
@@ -422,20 +527,35 @@ def main() -> None:
         f"Found {len(items)} new items. "
         "Building email..."
     )
-
-    html_content = build_html_email(items)
-
-    if send_email_flag:
-        print("Sending email...")
+    html_content = build_html_email(items)
+
+    archive_file = write_archive(
+        html_content
+    )
+
+    INDEX_FILE.parent.mkdir(
+        parents=True,
+        exist_ok=True,
+    )
+
+    INDEX_FILE.write_text(
+        build_archive_index(),
+        encoding="utf-8",
+    )
+
+    print(
+        f"Wrote archive to "
+        f"{archive_file}"
+    )
+
+    print(
+        f"Wrote archive index to "
+        f"{INDEX_FILE}"
+    )
+
+    if send_email_flag:
+        print("Sending email...")
         send_email(html_content)
-    output_file = Path("feed.html")
-
-    output_file.write_text(
-        html_content,
-        encoding="utf-8",
-    )
-
-    print(f"Wrote preview to {output_file}")
 
 
 if __name__ == "__main__":
