@@ -22,9 +22,11 @@ ARCHIVE_DIR = SITE_DIR / "archive"
 INDEX_FILE = SITE_DIR / "index.html"
 
 
+
 RECIPIENT_EMAIL = os.environ.get("RECIPIENT_EMAIL")
 SENDER_EMAIL = os.environ.get("SENDER_EMAIL")
 RESEND_API_KEY = os.environ.get("RESEND_API_KEY")
+ARCHIVE_BASE_URL = os.environ.get("ARCHIVE_URL")
 
 DAYS_BACK = 7
 
@@ -235,20 +237,27 @@ def write_archive(
 def build_html_email(items: Sequence[FeedItem]) -> HtmlContent:
     generated = datetime.now().strftime("%Y-%m-%d %H:%M")
 
-    current_file = (
-        datetime.now()
-        .strftime("%Y-%m-%d")
-        + ".html"
-    )
-
-    archive_files = sorted(
-        f.name
-        for f in ARCHIVE_DIR.glob("*.html")
-    )
-
-    previous_link = None
-
-    if archive_files:
+    today = datetime.now().strftime("%Y-%m-%d")
+    current_file = (
+        today
+        + ".html"
+    )
+    
+    archive_url = (
+        f"{ARCHIVE_BASE_URL}/"
+        "archive/"
+        f"{today}.html"
+    )
+    
+
+    archive_files = sorted(
+        f.name
+        for f in ARCHIVE_DIR.glob("*.html")
+    )
+
+    previous_link = None
+
+    if archive_files:
         previous_link = archive_files[-1]
         
         
@@ -319,6 +328,10 @@ def build_html_email(items: Sequence[FeedItem]) -> HtmlContent:
             font-size:15px;
         ">
             <span style="margin-right:28px;">
+                <strong><a href="{ARCHIVE_BASE_URL}">Home</a></strong>
+            </span>
+            
+            <span style="margin-right:28px;">
                 <strong>Feeds:</strong> {len(sources)}
             </span>
 
@@ -334,7 +347,7 @@ def build_html_email(items: Sequence[FeedItem]) -> HtmlContent:
     )
 
     html_parts.append(
-        """
+        f"""
         <div style="
             background:#f3f3f3;
             border-bottom:1px solid #d0d0d0;
@@ -342,7 +355,7 @@ def build_html_email(items: Sequence[FeedItem]) -> HtmlContent:
             font-weight:600;
             font-size:17px;
         ">
-            <a href="https://monster0506.github.io/rss-subscriber/">Weekly Summary</a>
+            <a href="{archive_url}">Weekly Summary</a>
         </div>
         """
     )
@@ -444,19 +457,19 @@ def build_html_email(items: Sequence[FeedItem]) -> HtmlContent:
         html_parts.append("</div>")
 
     html_parts.append("</div>")
-    if previous_link:
-        html_parts.append(
-            f"""
-            <div style="
-                padding:14px;
-                border-top:1px solid #d0d0d0;
-                background:#f7f7f7;
-            ">
-                <a href="{previous_link}">
-                    ← Previous Week
-                </a>
-            </div>
-            """
+    if previous_link:
+        html_parts.append(
+            f"""
+            <div style="
+                padding:14px;
+                border-top:1px solid #d0d0d0;
+                background:#f7f7f7;
+            ">
+                <a href="{previous_link}">
+                    ← Previous Week
+                </a>
+            </div>
+            """
         )
     html_parts.append(
         f"""
@@ -527,34 +540,34 @@ def main() -> None:
         f"Found {len(items)} new items. "
         "Building email..."
     )
-    html_content = build_html_email(items)
-
-    archive_file = write_archive(
-        html_content
-    )
-
-    INDEX_FILE.parent.mkdir(
-        parents=True,
-        exist_ok=True,
-    )
-
-    INDEX_FILE.write_text(
-        build_archive_index(),
-        encoding="utf-8",
-    )
-
-    print(
-        f"Wrote archive to "
-        f"{archive_file}"
-    )
-
-    print(
-        f"Wrote archive index to "
-        f"{INDEX_FILE}"
-    )
-
-    if send_email_flag:
-        print("Sending email...")
+    html_content = build_html_email(items)
+
+    archive_file = write_archive(
+        html_content
+    )
+
+    INDEX_FILE.parent.mkdir(
+        parents=True,
+        exist_ok=True,
+    )
+
+    INDEX_FILE.write_text(
+        build_archive_index(),
+        encoding="utf-8",
+    )
+
+    print(
+        f"Wrote archive to "
+        f"{archive_file}"
+    )
+
+    print(
+        f"Wrote archive index to "
+        f"{INDEX_FILE}"
+    )
+
+    if send_email_flag:
+        print("Sending email...")
         send_email(html_content)
 
 
