@@ -428,15 +428,14 @@ def main() -> None:
     if send_email_flag:
         print("Sending email...")
         send_email(html_content)
-    else:
-        output_file = Path("feed.html")
+    output_file = Path("feed.html")
 
-        output_file.write_text(
-            html_content,
-            encoding="utf-8",
-        )
+    output_file.write_text(
+        html_content,
+        encoding="utf-8",
+    )
 
-        print(f"Wrote preview to {output_file}")
+    print(f"Wrote preview to {output_file}")
 
 
 if __name__ == "__main__":
