@@ -14,3 +14,4 @@ https://drewdevault.com/blog/index.xml
 https://indieblog.page/weeklyfeed?num=25
 https://lobste.rs/rss
 https://ratfactor.com/atom.xml
+https://martinalderson.com/feed.xml
