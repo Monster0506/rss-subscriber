@@ -6,19 +6,21 @@ on:
 
   workflow_dispatch:
 
-permissions:
-  contents: write
-  pages: write
-  id-token: write
+permissions: {}
 
 concurrency:
   group: rss-digest
   cancel-in-progress: false
 
 jobs:
-  build:
+  generate:
     runs-on: ubuntu-latest
-
+    timeout-minutes: 15
+    permissions:
+      contents: read
+    outputs:
+      today: ${{ steps.today.outputs.value }}
+      archive_filename: ${{ steps.today.outputs.archive_filename }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -37,6 +39,13 @@ jobs:
       - name: Install dependencies
         run: uv sync --locked --no-dev
 
+      - name: Today's date
+        id: today
+        run: |
+            TODAY=$(date -u +%F)
+            echo "value=${TODAY}" >> "$GITHUB_OUTPUT"
+            echo "archive_filename=site/archive/${TODAY}.html" >> "$GITHUB_OUTPUT"
+
       - name: Fetch Pages URL
         id: pages
         continue-on-error: true
@@ -44,17 +53,46 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           URL=$(gh api "repos/$GITHUB_REPOSITORY/pages" --jq '.html_url')
-          echo "url=$URL" >> "$GITHUB_OUTPUT"
-          echo "Pages URL: $URL"
+          echo "url=${URL:-}" >> "$GITHUB_OUTPUT"
+          if [ -z "${URL:-}" ]; then
+            echo "::warning::gh api returned no Pages URL; ARCHIVE_BASE_URL will be empty."
+          fi
 
-      - name: Generate digest
-        run: |
-          uv run python main.py --send
+      - name: Generate digest (no send)
         env:
-          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
-          RECIPIENT_EMAIL: ${{ secrets.RECIPIENT_EMAIL }}
-          SENDER_EMAIL: ${{ secrets.SENDER_EMAIL }}
-          ARCHIVE_BASE_URL: ${{ steps.pages.outputs.url || 'https://monster0506.github.io/rss-subscriber' }}
+          ARCHIVE_BASE_URL: ${{ steps.pages.outputs.url }}
+        run: uv run python main.py
+
+      - name: Verify archive file exists
+        run: |
+          test -f "site/archive/${{ steps.today.outputs.value }}.html" \
+            || { echo "::error::missing site/archive/${{ steps.today.outputs.value }}.html"; exit 1; }
+
+      - name: Upload generated site
+        uses: actions/upload-artifact@v4
+        with:
+          name: site
+          path: site
+          if-no-files-found: error
+          retention-days: 1
+
+  commit:
+    needs: generate
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Download generated site
+        uses: actions/download-artifact@v4
+        with:
+          name: site
+          path: site
 
       - name: Commit generated site
         env:
@@ -69,17 +107,82 @@ jobs:
           if git diff --cached --quiet; then
             echo "No changes"
           else
-            git commit -m "Weekly digest $(date -u +%F)"
+            git commit -m "Weekly digest ${{ needs.generate.outputs.today }}"
             git push
           fi
+
+  deploy:
+    needs: commit
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
 
       - name: Configure Pages
         uses: actions/configure-pages@v5
 
-      - name: Upload Pages Artifact
+      - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: site
 
-      - name: Deploy Pages
+      - name: Deploy to GitHub Pages
+        id: deployment
         uses: actions/deploy-pages@v4
+
+  email:
+    needs: [deploy, generate]
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions: {}
+    steps:
+      - name: Download generated site
+        uses: actions/download-artifact@v4
+        with:
+          name: site
+          path: site
+
+      - name: Build Resend payload
+        env:
+          SENDER_EMAIL: ${{ secrets.SENDER_EMAIL }}
+          RECIPIENT_EMAIL: ${{ secrets.RECIPIENT_EMAIL }}
+          ARCHIVE_FILE: ${{ needs.generate.outputs.archive_filename }}
+        run: |
+          SUBJECT="Your Weekly RSS Digest for $(basename "$ARCHIVE_FILE" .html)"
+          jq -n --rawfile html "$ARCHIVE_FILE" \
+                 --arg from "$SENDER_EMAIL" \
+                 --arg to "$RECIPIENT_EMAIL" \
+                 --arg subject "$SUBJECT" \
+                 '{from: $from, to: [$to], subject: $subject, html: $html}' \
+                 > payload.json
+
+      - name: Send via Resend API
+        env:
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+        run: |
+          STATUS=$(curl --silent --show-error --fail-with-body \
+            -X POST "https://api.resend.com/emails" \
+            -H "Authorization: Bearer ${RESEND_API_KEY}" \
+            -H "Content-Type: application/json" \
+            --data @payload.json \
+            -o response.json \
+            -w '%{http_code}') || {
+              echo "::error::Resend API returned a non-2xx response"
+              cat response.json
+              echo
+              exit 1
+            }
+          echo "Resend HTTP ${STATUS}"
+          MSG_ID=$(jq -r '.id // "(no id field)"' response.json)
+          echo "Resend message id: ${MSG_ID}"
+          echo "Full Resend response:"
+          cat response.json
+          echo
