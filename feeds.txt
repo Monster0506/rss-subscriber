@@ -16,3 +16,4 @@ https://lobste.rs/rss
 https://ratfactor.com/atom.xml
 https://martinalderson.com/feed.xml
 https://iximiuz.com/feed.rss
+https://aartaka.me/rss.xml
