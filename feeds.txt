@@ -19,3 +19,4 @@ https://iximiuz.com/feed.rss
 https://aartaka.me/rss.xml
 https://gendx.dev/blog/feed.xml
 https://www.siddharthagolu.com/index.xml
+https://www.raptitude.com/feed/
