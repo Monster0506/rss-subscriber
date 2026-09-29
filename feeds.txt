@@ -22,3 +22,4 @@ https://www.siddharthagolu.com/index.xml
 https://www.raptitude.com/feed/
 https://bencrowder.net/blog/tag/links/feed/
 https://daringfireball.net/feeds/main
+https://axxuy.com/links/feed.xml
