@@ -24,3 +24,4 @@ https://bencrowder.net/blog/tag/links/feed/
 https://daringfireball.net/feeds/main
 https://axxuy.com/links/feed.xml
 https://joshtronic.com/rss.xmlx
+https://autodidacts.io/rss/
