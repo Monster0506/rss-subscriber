@@ -51,6 +51,10 @@
     "first_seen": "2026-09-06T16:00:38.808284+00:00",
     "link": "https://simonwillison.net/2026/Sep/6/zach-kehs/"
   },
+  "0152f465422e8d7b032d487bed41bd28389ffae20f2b7ab5f6f77aca53b8d738": {
+    "first_seen": "2026-11-08T18:14:29.942658+00:00",
+    "link": "https://pluralistic.net/2026/11/02/agony-verification/"
+  },
   "017d05a6857d356d7b4fb3a588c6d530b980e9d1d0e2fdd989889f153cfb9fd5": {
     "first_seen": "2026-09-13T16:51:38.867258+00:00",
     "link": "https://hashset.dev/article/2026/03/21/reflecting-on-deserialization-why-you-should-explicitly-decode-your-json/?utm_source=indieblog.page&utm_medium=rss&utm_campaign=indieblog.page"
@@ -115,9 +119,17 @@
     "first_seen": "2026-07-26T14:37:20.413083+00:00",
     "link": "https://devblogs.microsoft.com/oldnewthing/20260724-00/?p=112562"
   },
+  "0300c8142031be26931f67bec13a2de7f8c638d0e400d7bb3f7175bdc13969b3": {
+    "first_seen": "2026-11-08T18:14:29.293802+00:00",
+    "link": "https://acid.vegas/blog/the-port-that-does-not-exist/"
+  },
   "032c66bfddee53547c2e585147d5e8acb54840b4e6919c944e1c0d0fcb5d524a": {
     "first_seen": "2026-07-12T16:32:36.520094+00:00",
     "link": "http://ajroach42.com/Spacehawk-The-Game/?utm_source=indieblog.page&utm_medium=rss&utm_campaign=indieblog.page"
+  },
+  "033bdad9502ccb518ad35c4a8e4ccb50d7f09e9863ea6c38ed0d1eb5f8ad80b4": {
+    "first_seen": "2026-11-08T18:14:29.462639+00:00",
+    "link": "https://8rank.ai/game/apple-intelligence-personal-knowledge-graph"
   },
   "0343f6428aeca351e2ff9fe10a1354f8f501a8fae3330e4fafba59a9b37c1890": {
     "first_seen": "2026-08-02T14:36:59.191512+00:00",
@@ -275,6 +287,10 @@
     "first_seen": "2026-09-13T16:51:38.400288+00:00",
     "link": "https://devblogs.microsoft.com/oldnewthing/20260910-00/?p=112689"
   },
+  "077071881c6d695c52c7c4da308b04f3d106ebef2b2eba8a8d6dfb2ad1b249ae": {
+    "first_seen": "2026-11-08T18:14:29.293682+00:00",
+    "link": "https://lobste.rs/s/ipplhe/how_are_you_dealing_with_all_negative_side"
+  },
   "078a7ce5985a39d462115d311fab533d35c6ded05dffc4324971c01f72cbd799": {
     "first_seen": "2026-08-09T13:50:29.742088+00:00",
     "link": "https://robot.villas"
@@ -379,6 +395,10 @@
     "first_seen": "2026-07-12T16:32:36.520289+00:00",
     "link": "https://xlark.sdf.org/blog/linuxunix/2026/01/27/rhel9-raspberry-pi-with-satellite.html?utm_source=indieblog.page&utm_medium=rss&utm_campaign=indieblog.page"
   },
+  "09addc1f4e096858e7873da6dcce87a9b34ace2a7abaee4ab1a4e10b5645dc04": {
+    "first_seen": "2026-11-08T18:14:29.293796+00:00",
+    "link": "https://djad04.github.io/php2shell-deep-dive/"
+  },
   "09b5b6d5bbe4b625540eb12b8a025d6c3d6a0b861ee3ce89aeefe93be7acdf32": {
     "first_seen": "2026-09-13T16:51:38.637342+00:00",
     "link": "https://brew.sh/2026/09/13/homebrew-7.0.0/"
@@ -426,6 +446,10 @@
   "0ad5db3f3626913e765ae940e73f1eeedd62dc6447484aef41ff8263c8a9a578": {
     "first_seen": "2026-10-04T17:19:37.973495+00:00",
     "link": "https://bytecellar.com/2026/05/10/init-hello-a-new-apple-ii-conference-scope-creep-done-right/?utm_source=indieblog.page&utm_medium=rss&utm_campaign=indieblog.page"
+  },
+  "0adc58e744b6944a115f8e16f9d655984d94c2c53fd9ed83763bd725a3dcb300": {
+    "first_seen": "2026-11-08T18:14:29.399147+00:00",
+    "link": "https://workos.com/auth-md?utm_source=daringfireball&utm_medium=newsletter&utm_campaign=q42026"
   },
   "0b166b39f75ff09627026bdbca7366d4643fbaf079d42c9c4158c14127a783e8": {
     "first_seen": "2026-10-11T17:55:16.154488+00:00",
@@ -575,6 +599,10 @@
     "first_seen": "2026-06-21T23:08:38.837567+00:00",
     "link": "https://mandarismoore.com/2026/02/19/085224/?utm_source=indieblog.page&utm_medium=rss&utm_campaign=indieblog.page"
   },
+  "0ed3f3ef8b9b207e87ff582bc16803ced6b169db057b666995f0719b99753210": {
+    "first_seen": "2026-11-08T18:14:29.942034+00:00",
+    "link": "https://pluralistic.net/2026/11/05/see-you-in-court/"
+  },
   "0eecede41d2705e15009a66656baab1f88f581453cf7cdb635c80d7afe663db4": {
     "first_seen": "2026-10-25T16:58:32.658551+00:00",
     "link": "https://www.youtube.com/watch?v=8pCccpKjjos"
@@ -622,6 +650,10 @@
   "10dfcb1e864a92a9cc8c6dc134bdd446434974f2edf1b75f58224840de378154": {
     "first_seen": "2026-09-20T16:42:15.440266+00:00",
     "link": "https://scriptingosx.com/2026/09/apple-27-platform-updates-september-2026/"
+  },
+  "10e944efb41bc40397229e2b230e13d04e84c39b0adaa8c84c282e87128e1446": {
+    "first_seen": "2026-11-08T18:14:29.915021+00:00",
+    "link": "https://saneef.com/blog/learning-notes-2026-w23/?utm_source=indieblog.page&utm_medium=rss&utm_campaign=indieblog.page"
   },
   "111c95e3aa39814ce997a276d73546e47070e66f63978b19db04a89a6d456837": {
     "first_seen": "2026-06-28T14:49:25.784374+00:00",
@@ -767,6 +799,14 @@
     "first_seen": "2026-06-28T14:49:25.769961+00:00",
     "link": "https://devblogs.microsoft.com/oldnewthing/20260625-01/?p=112469"
   },
+  "14240cfe3c56fffbeadb6c16c0bf05055c49bd90b0855d90ee94b17bbf28970a": {
+    "first_seen": "2026-11-08T18:14:29.915267+00:00",
+    "link": "https://blog.lukesalamone.com/posts/creating-tiny-semantic-search/?utm_source=indieblog.page&utm_medium=rss&utm_campaign=indieblog.page"
+  },
+  "143c097a076e84ac13a8bc1b4abc211f786ed5cc3c4828e49b707e3a9262bce9": {
+    "first_seen": "2026-11-08T18:14:29.293733+00:00",
+    "link": "https://op.tngl.io/meridian/"
+  },
   "14444d9f11fdb95b0749b2870021b4700bfe25a590dc97e393ab299133f1320a": {
     "first_seen": "2026-09-27T17:34:08.124028+00:00",
     "link": "https://modernmotherfuckingwebsite.dreamstation.systems/"
@@ -851,9 +891,21 @@
     "first_seen": "2026-07-26T14:37:20.396386+00:00",
     "link": "https://simonwillison.net/2026/Jul/21/nativ/#atom-everything"
   },
+  "1612fc530491b30e229f6a084225cd9f155f60ac77679a8727e206d39a498326": {
+    "first_seen": "2026-11-08T18:14:29.942385+00:00",
+    "link": "https://pluralistic.net/2026/11/03/nobody-is-home/"
+  },
+  "162581bcfceaf8421ce16cb7266b5f5d059f071f642690284c1b3ada0ddfecaa": {
+    "first_seen": "2026-11-08T18:14:29.915224+00:00",
+    "link": "https://accentgrave.net/log/2026-06-05--marchands-dombre?utm_source=indieblog.page&utm_medium=rss&utm_campaign=indieblog.page"
+  },
   "16278565d50915517bc1148da1a1b5da7ec77a865ee57c55e4c5498957ce809c": {
     "first_seen": "2026-10-11T17:55:16.212138+00:00",
     "link": "https://simonwillison.net/2026/Oct/6/datasette-parseable-opentelemetry/"
+  },
+  "16315aa286efa42e02805d5eed87803fc9ec3856a798e7e6fbc48adbe9bb5871": {
+    "first_seen": "2026-11-08T18:14:29.462536+00:00",
+    "link": "https://goldstein.lol/posts/deno-security/"
   },
   "1664f5e36d0df912b4cdd4a3d8770a1ef544b231f1dafd3222689dd5ea315336": {
     "first_seen": "2026-09-06T16:00:39.287674+00:00",
@@ -991,6 +1043,10 @@
     "first_seen": "2026-06-28T14:49:25.784469+00:00",
     "link": "https://emacsconf.org/2026/cfp/"
   },
+  "19d1690293159d3b288206624447b67809df528c9e8caf2fac957b028250a14b": {
+    "first_seen": "2026-11-08T18:14:29.915328+00:00",
+    "link": "https://ozgur.ca/notes/the-two-stripes-at-molineux?utm_source=indieblog.page&utm_medium=rss&utm_campaign=indieblog.page"
+  },
   "1a1de95454e6c2979285363625671f04d8178f1f9a1c151a9b0c929daf7c5f54": {
     "first_seen": "2026-10-04T17:19:37.543814+00:00",
     "link": "https://www.youtube.com/watch?v=y227RF0smAg"
@@ -1046,6 +1102,10 @@
   "1b8a9082115b68ac63be83e2706887a87048f7c078bd5e4d66e528650d2eac92": {
     "first_seen": "2026-08-30T17:14:25.844150+00:00",
     "link": "https://lectronz.com/u/lectronz/articles/how-europe-is-killing-makers-and-micro-entrepreneurs"
+  },
+  "1b952e8ccf388d9f34d9c5d900055653f76f678af92913b7684fb7e2656e39ac": {
+    "first_seen": "2026-11-08T18:14:29.462610+00:00",
+    "link": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again"
   },
   "1bd4bfebe07ac50d458da7dfda52b70a0309d993f7a36d4350191ebb313333b7": {
     "first_seen": "2026-10-25T16:58:33.842238+00:00",
@@ -1171,6 +1231,10 @@
     "first_seen": "2026-09-20T16:42:15.371444+00:00",
     "link": "https://ivanursul.com/building-svitgrid-solar-monitoring?utm_source=indieblog.page&utm_medium=rss&utm_campaign=indieblog.page"
   },
+  "1eeeca27e3dabf91e2edda2b7fa561ad6d4bda6af43800535678bdf4c7ed9113": {
+    "first_seen": "2026-11-08T18:14:29.398817+00:00",
+    "link": "https://developer.apple.com/news/?id=gdk2umrf"
+  },
   "1f200bfe548a46b8f06631c829283fb16cde58c6ee29538d81bfa8faf2737259": {
     "first_seen": "2026-08-30T17:14:25.844088+00:00",
     "link": "https://www.gamedeveloper.com/business/playdate-maker-is-refunding-tariff-fees-to-customers"
@@ -1262,6 +1326,10 @@
   "214d14f06fe3b2550b2de03d87bfdb23624a44daa161f89169d7e89f7ffa116e": {
     "first_seen": "2026-10-18T16:23:24.754838+00:00",
     "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-proposed-ai-safety-bill-only-kicks-in-if-50-deaths-or-usd1-billion-in-damages-are-on-the-line-proposal-would-effectively-make-the-commerce-department-the-only-agency-capable-of-stopping-an-ai-model"
+  },
+  "215d5e6ee0fa4f77b5ab55fe519c54e23d8ff326193e9709b8c380c95faa0af5": {
+    "first_seen": "2026-11-08T18:14:29.284383+00:00",
+    "link": "https://simonwillison.net/2026/Nov/1/delete-uv-lock-first/"
   },
   "21611efaa3a8bc404ae9d069459435405b1cd546e43e3d1f006f020eeb50c4bc": {
     "first_seen": "2026-08-16T13:32:02.203357+00:00",
@@ -1363,6 +1431,10 @@
     "first_seen": "2026-10-11T17:55:16.211840+00:00",
     "link": "https://simonwillison.net/2026/Oct/7/claude-haiku-5-5/"
   },
+  "233f4fd6697a67e997247957c1cb0100dc6ca40dbfbdadc9c24e26e3e7d6d9ea": {
+    "first_seen": "2026-11-08T18:14:29.462559+00:00",
+    "link": "https://aworkinglibrary.com/writing/petered"
+  },
   "234bbfed0e6c08cbcdd03f5d4112cbc2872e8594ae90d45fcf9091bf8e3dcc3f": {
     "first_seen": "2026-09-06T16:00:39.175434+00:00",
     "link": "https://beza1e1.tuxen.de/ai_feelings.html"
@@ -1378,6 +1450,10 @@
   "239c643512245f232d71ec01f238dcb80b8eacd94596f83c6103d2cdaefb5f6e": {
     "first_seen": "2026-07-05T14:44:50.847637+00:00",
     "link": "https://una.im/contrast-color/?utm_source=indieblog.page&utm_medium=rss&utm_campaign=indieblog.page"
+  },
+  "239cc54a54520a85992155c51f90670f81f9e30afc07cae6d03a8eceebb10c22": {
+    "first_seen": "2026-11-08T18:14:30.076125+00:00",
+    "link": "https://www.autodidacts.io/the-command-line-as-everything-repl/"
   },
   "23bdfbcb31ddf95acb8688b8c13a5de8bab135aad04878f8795ec10acedec2eb": {
     "first_seen": "2026-09-13T16:51:38.867483+00:00",
@@ -1470,6 +1546,10 @@
   "260c9d6de2213a89ce6ed62435f8835df1cab9f55edceed6d50be1d4bb84cb91": {
     "first_seen": "2026-09-06T16:00:38.876062+00:00",
     "link": "https://9to5mac.com/2026/08/31/apple-openai-forensic-macbook-evidence/"
+  },
+  "261db0c530e4b026cf58ac0a78eb13246f04a4c541f9486d3c265d368893bfde": {
+    "first_seen": "2026-11-08T18:14:30.011753+00:00",
+    "link": "https://feed.tedium.co/link/15204/17514236/cryptids-halloween-ephemera"
   },
   "262fc86b04ab38fab67231e7db0a19f910a075c34d4c663566fde60b1a60266e": {
     "first_seen": "2026-09-06T16:00:39.253771+00:00",
@@ -1991,6 +2071,10 @@
     "first_seen": "2026-09-06T16:00:38.875551+00:00",
     "link": "https://www.newyorker.com/culture/life-and-letters/gloria-steinems-final-essay?cndid=66114350"
   },
+  "35069160ea78b9fd49e3e5d712781d3bad04215b9e7003467ef05c19e46856e9": {
+    "first_seen": "2026-11-08T18:14:29.915299+00:00",
+    "link": "https://thinkroot.xyz/jurnal/povestea-fascinanta-a-linux-mint-sistemul-de-operare-irlandez-care-a-depasit-windows?utm_source=indieblog.page&utm_medium=rss&utm_campaign=indieblog.page"
+  },
   "3510e7a6eb210b6d80e08572f2cc5a1cf525fe10c9811ca25e9a464fe1984fff": {
     "first_seen": "2026-11-01T18:17:09.891747+00:00",
     "link": "http://0ut3r.space/2026/05/23/it-pcap-analysis/?utm_source=indieblog.page&utm_medium=rss&utm_campaign=indieblog.page"
@@ -2123,6 +2207,10 @@
     "first_seen": "2026-09-27T17:34:08.107522+00:00",
     "link": "https://youtu.be/WrwY_jVaN-w"
   },
+  "38a100bf8bfb567f41dfd887cbeb5739ad5204c919e9807a1b7784d74efda398": {
+    "first_seen": "2026-11-08T18:14:29.293745+00:00",
+    "link": "https://sunshowers.io/posts/sshole/"
+  },
   "38ce2e5d48e7b0fb86927d192da56b68eb2f16b7f976529c0f07c9a6d13daf44": {
     "first_seen": "2026-09-20T16:42:15.371355+00:00",
     "link": "https://blog.yiningkarlli.com/2026/07/hybrid-bvh.html?utm_source=indieblog.page&utm_medium=rss&utm_campaign=indieblog.page"
@@ -2134,6 +2222,10 @@
   "38f52f009148492e55c241de3e90f75b093160d3cc089f7b11567cb4b95b945c": {
     "first_seen": "2026-07-26T14:37:20.882158+00:00",
     "link": "https://aartaka.me/uses-paper.html"
+  },
+  "391416c9de84b9094199f9684a00a066cde70f15b01447842c892a8f988e55c2": {
+    "first_seen": "2026-11-08T18:14:29.398690+00:00",
+    "link": "https://edits.instagram.com/blog/edits-desktop-video-editor/"
   },
   "3959d39294ac1e1b23fdef13102d3754ae92c16a4a30cafba023308ac8e40074": {
     "first_seen": "2026-10-04T17:19:37.565802+00:00",
@@ -2355,6 +2447,10 @@
     "first_seen": "2026-06-28T14:49:26.053940+00:00",
     "link": "https://www.pawlean.com/posts/joining-openai?utm_source=indieblog.page&utm_medium=rss&utm_campaign=indieblog.page"
   },
+  "3f618bccae44565dc9e4894137b3a8a5cec888c62ea4443c45771bd297812531": {
+    "first_seen": "2026-11-08T18:14:29.398758+00:00",
+    "link": "https://apple.news/Afq6SKrYkTcCEHrCEQmxm5A?web_embed_link=aHR0cHM6Ly9uZXdzLWFzc2V0cy5hcHBsZS5jb20vZW1iZWRzLzY2ZDQzYzg0LTMyMWYtNGQ0Ny05Mzk4LWE3NjE3NDgwZWE2Yi9pbmRleC5odG1sI2NvbnRleHQ9TU9EQUwmc3RpY2t5PWZhbHNlJmVmZmVjdD1ub25lJmxpZ2h0X2JnX2NvbG9yPWU5ZWNmMiZkYXJrX2JnX2NvbG9yPTJkM2Q1NCZzY29wZT11cyZvcmlnaW49c2hhcnJvdyZsaXZlYWN0aXZpdGllcz10cnVlJm5mZl9jaWQ9NTZjMjQ1OTQtNDIxNC00NDM0LTlhNTgtNWE1YTIxM2ZkMTBi"
+  },
   "3f95732d6219a57bc3468429650637b76cd553fb91261a197778f2e2b92b1e26": {
     "first_seen": "2026-07-19T14:24:02.058092+00:00",
     "link": "https://alexalejandre.com/interviews/interview-with-matheus-moreira/"
@@ -2362,6 +2458,10 @@
   "3fb5c069cb2ad112b416a6a3538fd3dbb9dabe70205c2157f7b46bab421b4e8b": {
     "first_seen": "2026-09-20T16:42:14.879026+00:00",
     "link": "https://simonwillison.net/2026/Sep/16/datasette/"
+  },
+  "3fbc057585c4e0092a2337ed1d3ad8f8fac8d6454e803172cb4d9d60d190a13a": {
+    "first_seen": "2026-11-08T18:14:29.399059+00:00",
+    "link": "https://x.com/asymco/status/2117379158087278697"
   },
   "3fbe47456c9375201ae1968f36ca78b3ae627115ceeb45fb307235b2e275b20f": {
     "first_seen": "2026-09-20T16:42:15.439888+00:00",
@@ -2483,6 +2583,10 @@
     "first_seen": "2026-07-12T16:32:36.138254+00:00",
     "link": "https://dakra.github.io/ghostel/"
   },
+  "424183d6a1d511344a794416c3b80355b42d554c87e2b27dfa53d9b56ec823a8": {
+    "first_seen": "2026-11-08T18:14:30.076110+00:00",
+    "link": "https://www.autodidacts.io/getting-better-at-saying-no/"
+  },
   "42510a4906228bed62941c992e22cc1830dd934def62e5ba24896457a265e28a": {
     "first_seen": "2026-07-19T14:24:02.058069+00:00",
     "link": "https://github.com/t-head/triton-for-sail"
@@ -2543,6 +2647,10 @@
     "first_seen": "2026-07-12T16:32:35.916355+00:00",
     "link": "https://simonwillison.net/2026/Jul/7/github-code-component/#atom-everything"
   },
+  "43c5accc335a1ddc93b5a46d4f192ed1c590a8ef8f99651a97bb2efb90632b1e": {
+    "first_seen": "2026-11-08T18:14:29.293709+00:00",
+    "link": "https://lobste.rs/s/umsitb/what_can_i_realistically_do_with_local_ai"
+  },
   "43d18b8566ba717d5e90e868bb8a9ef8f28956c3c2da0dadc9868f745f2064b1": {
     "first_seen": "2026-09-20T16:42:14.960559+00:00",
     "link": "https://blog.emilua.org/2025/01/12/software-sandboxing-basics/"
@@ -2554,6 +2662,10 @@
   "4411f8b5148260693129fcc9a90814207f8bd6138bb218ffb59e5cb571ebf94a": {
     "first_seen": "2026-09-06T16:00:39.175403+00:00",
     "link": "https://albertapolitics.ca/2026/09/ucp-slaps-punitive-tax-on-solar-panels-opening-new-front-in-its-war-on-renewable-energy/"
+  },
+  "442d9b29a92255111fed759c4970f397f9eefa7f901881b229c2a17939d0787b": {
+    "first_seen": "2026-11-08T18:14:29.462567+00:00",
+    "link": "https://linebender.org/blog/jit-bitmap-text/"
   },
   "443fa67ca389223c2508ffceaef2ddf0053520e1f74b5d56d4349483bb51e862": {
     "first_seen": "2026-09-27T17:34:08.106777+00:00",
@@ -2598,6 +2710,10 @@
   "452814709e1615f5b494d0517f98701a259b2536ca1c7f157b05ee01ffd35f35": {
     "first_seen": "2026-11-01T18:17:09.440774+00:00",
     "link": "https://simonwillison.net/2026/Oct/25/seam-cutter/"
+  },
+  "452fda342737ed507afc4f2a5d6441dd99d32509a5c359653fd7eac47e4b0ffa": {
+    "first_seen": "2026-11-08T18:14:29.398907+00:00",
+    "link": "https://www.macrumors.com/2026/11/03/ios-27-3-safari/"
   },
   "4531aaeb11d6a46bc2567ac4f44dafb27caa2da19e0a9534a8bfe121e6b5b22e": {
     "first_seen": "2026-10-11T17:55:16.211737+00:00",
@@ -2747,6 +2863,10 @@
     "first_seen": "2026-09-20T16:42:15.371201+00:00",
     "link": "https://blog.iamjannik.me/2026/application-sandboxing-with-nono/?utm_source=indieblog.page&utm_medium=rss&utm_campaign=indieblog.page"
   },
+  "49083bd19dd4f8eaa184097682d4b260c2291ccc8402ae46f7d95e1f75b8e53f": {
+    "first_seen": "2026-11-08T18:14:29.227317+00:00",
+    "link": "https://devblogs.microsoft.com/oldnewthing/20261105-00/?p=112835/"
+  },
   "491067da38e1070c06ebb3ec2ba934f2f853247541e83b06c58e7bbcf92d9ab9": {
     "first_seen": "2026-07-05T14:44:50.847667+00:00",
     "link": "https://www.kylereddoch.me/blog/ai-comes-to-home-security-cameras-and-metadata-becomes-the-new-privacy-problem/?utm_source=indieblog.page&utm_medium=rss&utm_campaign=indieblog.page"
@@ -2766,6 +2886,10 @@
   "49818a8a52de3bb3e099187510c9a0de7c214b6bc9d1417346d89fc32e5c894a": {
     "first_seen": "2026-08-16T13:32:02.203685+00:00",
     "link": "https://simonwillison.net/2026/Aug/11/datasette-upload-dbs/"
+  },
+  "49a1dd50a62cc191a339aad1dcdae3767f575f41d113668696d78fc1dbe75ab7": {
+    "first_seen": "2026-11-08T18:14:29.915191+00:00",
+    "link": "https://hotelpaintings.neocities.org/posts/2026-06-27-Why_Not_Manifest/?utm_source=indieblog.page&utm_medium=rss&utm_campaign=indieblog.page"
   },
   "49b29926834749047cc8d2b7150e395d0ce5f88116822b33ea156f3ffbc1ef60": {
     "first_seen": "2026-07-19T14:24:02.843046+00:00",
@@ -2906,6 +3030,10 @@
   "4ccdda36ab2f4da87befb7e007f8e8d0b4863c6deadd073e0b3592b12858ce66": {
     "first_seen": "2026-09-13T16:51:40.936882+00:00",
     "link": "https://jetkvm.com/blog/introducing-jetkvm-mini"
+  },
+  "4cd6bed05595db45d470af95ed58cf963d052e03a03f101d594a32ff452d1162": {
+    "first_seen": "2026-11-08T18:14:29.915150+00:00",
+    "link": "https://oliverschwarz.info/articles/fear-and-hope-daggerheart?utm_source=indieblog.page&utm_medium=rss&utm_campaign=indieblog.page"
   },
   "4cda6c0fb96300e7fa203d26d18f7ff831b7a55932af9051b84b429ea30bd906": {
     "first_seen": "2026-09-13T16:51:40.936864+00:00",
@@ -3083,6 +3211,10 @@
     "first_seen": "2026-10-25T16:58:32.896224+00:00",
     "link": "https://spool-five.com/posts/2026-09-23-fury_road/?utm_source=indieblog.page&utm_medium=rss&utm_campaign=indieblog.page"
   },
+  "50e6a07f329f931bb0b928f854a9358176a512397b5b4e3bcf3b8e5ab4ecea3c": {
+    "first_seen": "2026-11-08T18:14:30.076132+00:00",
+    "link": "https://www.autodidacts.io/local-ai-language-learning-stack/"
+  },
   "50f233bf813f36cb9a3426014de5ae45feb1dd57b32dd52319691042afbf9645": {
     "first_seen": "2026-09-13T16:51:38.400327+00:00",
     "link": "https://devblogs.microsoft.com/oldnewthing/20260909-00/?p=112683"
@@ -3135,6 +3267,10 @@
     "first_seen": "2026-07-19T14:24:01.837549+00:00",
     "link": "https://simonwillison.net/2026/Jul/15/claude-web-fetch-exfiltration/#atom-everything"
   },
+  "52131be9cfa048f638b5543d71b1fe225fd6274f638a2b449bf43e586a8f7a2c": {
+    "first_seen": "2026-11-08T18:14:29.915053+00:00",
+    "link": "https://www.austinatchley.xyz/posts/2026/08/agentic-engineering-in-practice-part-1-setting-the-table/?utm_source=indieblog.page&utm_medium=rss&utm_campaign=indieblog.page"
+  },
   "521848ca364d85fd8d2df4dea0eaa0c6f47497146005c8dd9230d6056f75dbef": {
     "first_seen": "2026-08-09T13:50:29.881577+00:00",
     "link": "https://simonwillison.net/2026/Aug/8/now-we-have-a-timeline-of-the-openai-accidental-attack-against-h/#atom-everything"
@@ -3154,6 +3290,10 @@
   "525aba957b6bb77df4bf7163aed6c36685f9255d93169fe29f6e19677e7d80cd": {
     "first_seen": "2026-07-12T16:32:36.138296+00:00",
     "link": "https://lwn.net/SubscriberLink/1080822/990a8a5e2d379085/"
+  },
+  "527bd9c909cb6e0c0acd5e750eb97b1aea1c90da90b3777fdf43a3b8fd106bed": {
+    "first_seen": "2026-11-08T18:14:29.293663+00:00",
+    "link": "https://neongd.com/articles/netbsd11-rpi4.gmi"
   },
   "5298a96e42568f0262c4b0a0acb6232cfd8908918b5ccc8192ec9d8f9a552d2c": {
     "first_seen": "2026-10-25T16:58:33.511944+00:00",
@@ -3239,6 +3379,10 @@
     "first_seen": "2026-07-26T14:37:20.538345+00:00",
     "link": "https://itsallaboutthebit.com/memory-safety-absolutists/"
   },
+  "54e347263b30daa5db6067b3cbcd19154edf90fc5649bf9187f96f69fcec0a56": {
+    "first_seen": "2026-11-08T18:14:29.942213+00:00",
+    "link": "https://pluralistic.net/2026/11/04/genius-scan-is-neither/"
+  },
   "55092c6238b7d3112f31801143dada7f7859e13a04db29b16bcb95f76628441c": {
     "first_seen": "2026-06-28T14:49:25.784433+00:00",
     "link": "https://forum.modular.com/t/max-models-can-now-run-on-apple-silicon-gpus/3283"
@@ -3246,6 +3390,10 @@
   "5513ce0810bf43a09b14a555163a54783c978bcb7fe124014d87bdcb67ce9a93": {
     "first_seen": "2026-09-20T16:42:14.960723+00:00",
     "link": "https://lwn.net/SubscriberLink/1094303/50affb2e7bd3e698/"
+  },
+  "5524fe3f98e0148a545d8d5a4d5699206ea1245ffe7a1b625557e2a605e240ca": {
+    "first_seen": "2026-11-08T18:14:29.398990+00:00",
+    "link": "https://9to5mac.com/2026/11/03/new-ipad-mini-a20-pro-review/"
   },
   "553559db0b4de6b304fea75307ed08a29973d9da872fabc92d4ba46d5b9e61a7": {
     "first_seen": "2026-07-19T14:24:03.055129+00:00",
@@ -3267,6 +3415,10 @@
     "first_seen": "2026-09-20T16:42:15.439776+00:00",
     "link": "https://maxfrequency.net/2026/09/17/iphone-duo-mkbhd-popularity-or-curiosity/"
   },
+  "55d4c2420aa944fded39a765550887285a1696d34d0a7a16d946240fa49bd3bc": {
+    "first_seen": "2026-11-08T18:14:29.293649+00:00",
+    "link": "https://maurycyz.com/misc/email/"
+  },
   "55d7df30321ba453684e44172dc076deea9589cf04310a3bcaa5aa6648a33d7e": {
     "first_seen": "2026-08-16T13:32:02.828468+00:00",
     "link": "https://pluralistic.net/2026/08/11/tragedy-of-the-commoners/"
@@ -3282,6 +3434,10 @@
   "56224676afd39a97cbcee0d6b95a62c8021b031b4adfd85623c56ff7c2b117be": {
     "first_seen": "2026-10-11T17:55:16.211953+00:00",
     "link": "https://simonwillison.net/2026/Oct/7/jake-boggan/"
+  },
+  "562fcd6a1d0d5d8c383587c387e9bbe992790f38d7fba69fc7becfdf8d023804": {
+    "first_seen": "2026-11-08T18:14:29.293768+00:00",
+    "link": "https://sflc.in/sflc-in-statement-regarding-the-takedown-requests-against-its-x-account-and-posts/"
   },
   "567706ff57c97fc8cd59d9cf53157d1314a3983a6f4a6f4481a69886005a619d": {
     "first_seen": "2026-06-28T14:49:26.054187+00:00",
@@ -3367,6 +3523,10 @@
     "first_seen": "2026-08-30T17:14:25.921253+00:00",
     "link": "https://github.com/anthropics/claude-code/issues/66504"
   },
+  "583e63be54017a6538c95603f19b80730bc3ebe06c0b43cae5507d246d45ccb0": {
+    "first_seen": "2026-11-08T18:14:29.293630+00:00",
+    "link": "https://lobste.rs/s/jbdtim/who_wants_crowdsource_llm_scans_articles"
+  },
   "5860623e1f44a2d94cd96d4eba3fcb32d46bdb220381a3610b32bd0e130932c7": {
     "first_seen": "2026-07-19T14:24:02.058077+00:00",
     "link": "https://sebsite.pw/w/20260708-badstdcxx.html"
@@ -3374,6 +3534,10 @@
   "58a2cbee54ef70d9fb4929a8e72999c5b92ebd189ace862158bff16cb8b04ebd": {
     "first_seen": "2026-10-25T16:58:32.495974+00:00",
     "link": "https://vim-classic.org/"
+  },
+  "58d23c413aeba653c1b89d63650254404e8f7db0e49866dc0b401e395a7e891b": {
+    "first_seen": "2026-11-08T18:14:29.293790+00:00",
+    "link": "https://asahilinux.org/2026/11/progress-report-7-3/"
   },
   "58f3074a4af354a6046022a827c4f8d6310d8fbad0de5ad213b5b64c010e384a": {
     "first_seen": "2026-11-01T18:17:09.527146+00:00",
@@ -3519,6 +3683,10 @@
     "first_seen": "2026-09-06T16:00:39.254021+00:00",
     "link": "https://www.pieterbrinkman.com/2026/08/26/content-layer-is-context-for-agents/?utm_source=indieblog.page&utm_medium=rss&utm_campaign=indieblog.page"
   },
+  "5c51fdfaf0e2d2ede0bbc7ad2b909a6963751070b032b5269e4a2931e73ac5ef": {
+    "first_seen": "2026-11-08T18:14:29.915090+00:00",
+    "link": "https://ocramius.github.io/blog/php-logging-with-psr-3/?utm_source=indieblog.page&utm_medium=rss&utm_campaign=indieblog.page"
+  },
   "5c6ab95a15081658de341dd065865940e6f2773f10e17385cee7b759ba6d401e": {
     "first_seen": "2026-08-30T17:14:25.921307+00:00",
     "link": "https://blog.lyc8503.net/en/post/dn42-2-dnet/"
@@ -3575,6 +3743,10 @@
     "first_seen": "2026-08-30T17:14:26.111150+00:00",
     "link": "https://blog.rust-lang.org/inside-rust/2026/08/19/overloading-experiment/"
   },
+  "5e25d46c69decb7904a5bc5171c8fde14fb99bebd340842c199fd76eaca8e1e5": {
+    "first_seen": "2026-11-08T18:14:29.232825+00:00",
+    "link": "https://nullprogram.com/blog/2026/11/05/"
+  },
   "5e62a275db7ee63ae174fa4dd531a7917cca94f58322e6d1452a35c5b11211b5": {
     "first_seen": "2026-11-01T18:17:09.891578+00:00",
     "link": "https://campegg.com/posts/20261024163154?utm_source=indieblog.page&utm_medium=rss&utm_campaign=indieblog.page"
@@ -3611,6 +3783,10 @@
     "first_seen": "2026-08-02T14:36:59.191558+00:00",
     "link": "https://ankursethi.com/blog/prevent-cognitive-debt-by-manually-retyping-llm-generated-code/"
   },
+  "5f5e8384cfde02897c76c0c73024820cffddcb1a9c92ffe0cc4acbe881bd06f2": {
+    "first_seen": "2026-11-08T18:14:29.462500+00:00",
+    "link": "https://github.com/vsmutok/FuckCaptcha"
+  },
   "5f7e17097ef491161a32b0e9b6fd0b782477130bb56b2970084249002647ee63": {
     "first_seen": "2026-10-25T16:58:33.511991+00:00",
     "link": "https://actu.epfl.ch/news/neural-chip-decodes-interactions-between-brain-r-2/"
@@ -3634,6 +3810,10 @@
   "5ff9b84966aa2733aa5cb7120375e1eb8ea06bc761204cb0d443a743f5b41e0b": {
     "first_seen": "2026-08-02T14:36:59.191637+00:00",
     "link": "https://wezfurlong.org/wiff/"
+  },
+  "601ac6ebec975d2819b538e69fcd70a31c12b57c1578645fee7ead70017e0d0c": {
+    "first_seen": "2026-11-08T18:14:29.293774+00:00",
+    "link": "https://mitchellh.com/writing/libghostty-1-0"
   },
   "60255d1736e26c26ce20f2ef50247c7e994ab66faeae9fa3218e26d1f0077242": {
     "first_seen": "2026-07-19T14:24:01.837619+00:00",
@@ -3734,6 +3914,10 @@
   "61ee9703efc1583520f8b3b7a52e381de154a45e393d13bec21fad765f4f718a": {
     "first_seen": "2026-09-06T16:00:39.175534+00:00",
     "link": "https://bcantrill.dtrace.org/2025/12/05/your-intellectual-fly-is-open/"
+  },
+  "6211628529237cbea345e2360bd7c4a305ffcc6830987dff3cf8150737e2940d": {
+    "first_seen": "2026-11-08T18:14:29.293756+00:00",
+    "link": "https://x86.cx/blog/redanger"
   },
   "6218e0219f6856f2edb6a89362f3eda1a8353660bae32645af1150cf021b837f": {
     "first_seen": "2026-10-11T17:55:16.212160+00:00",
@@ -3846,6 +4030,10 @@
   "647df3c5caae4ffde60570a393b3ad1895ebba2c78f3cbd40f767c7e8e71d153": {
     "first_seen": "2026-10-18T16:23:25.054317+00:00",
     "link": "https://myfanwytristram.com/2026/08/14/binface-out-for-the-count/?utm_source=indieblog.page&utm_medium=rss&utm_campaign=indieblog.page"
+  },
+  "648579b969aa2dcc77883a59f9a4aad384d7e73c73a4161015df5d6997e21cba": {
+    "first_seen": "2026-11-08T18:14:29.915071+00:00",
+    "link": "https://www.bfoliver.com/2026/theincomer?utm_source=indieblog.page&utm_medium=rss&utm_campaign=indieblog.page"
   },
   "648e04d1a212ac2ba60013cab71a5122299fa4a55ac88a32541ccb1115c7275b": {
     "first_seen": "2026-10-11T17:55:17.365579+00:00",
@@ -4115,6 +4303,10 @@
     "first_seen": "2026-08-09T13:50:29.727945+00:00",
     "link": "https://blog.python.org/2026/08/python-3150-rc1/"
   },
+  "6ad46ca47a4c1e6432b3de460c55646ba534579e92418d79e323177cc1949c63": {
+    "first_seen": "2026-11-08T18:14:29.915034+00:00",
+    "link": "https://mckerlie.com/posts/turning-your-hobbies-into-passive-income/?utm_source=indieblog.page&utm_medium=rss&utm_campaign=indieblog.page"
+  },
   "6adc84d454f570b250ef8cf35ff64cc3b31893e4f5e7cfb0f9ca8a9ed5be1f34": {
     "first_seen": "2026-08-23T13:32:46.843059+00:00",
     "link": "https://www.wsj.com/business/media/disneys-abc-sues-fcc-over-challenge-to-its-broadcast-licenses-64e8f794?st=XTL4tA"
@@ -4130,6 +4322,10 @@
   "6af51a7ffa7e3f0b3810abfd29b639bb29cf53cabe9a8aef4a1376549f8f72aa": {
     "first_seen": "2026-08-02T14:36:59.242679+00:00",
     "link": "https://alvaromontoro.com/blog/68094/css-games-4connect?utm_source=indieblog.page&utm_medium=rss&utm_campaign=indieblog.page"
+  },
+  "6b1c4708310c50a052ce3a27137d5bf91cbfe6a70ec7c4d3a03a1ae2e22bb168": {
+    "first_seen": "2026-11-08T18:14:29.284054+00:00",
+    "link": "https://simonwillison.net/2026/Nov/4/datasette-llm/"
   },
   "6b32dcb4044d4ebcdb8b35364906a167896c77129ecb407b3e764f76675f2915": {
     "first_seen": "2026-08-23T13:32:47.177885+00:00",
@@ -4159,6 +4355,10 @@
     "first_seen": "2026-08-30T17:14:26.120181+00:00",
     "link": "https://martinalderson.com/posts/the-summer-of-open-weights/?utm_source=rss&utm_medium=rss&utm_campaign=feed"
   },
+  "6bd08c71dc30f8d56d31b975127b76857bb67076c0734f92527b3ce8fd9f7320": {
+    "first_seen": "2026-11-08T18:14:29.915001+00:00",
+    "link": "https://marnetto.net/2026/07/25/dml-making-of-2?utm_source=indieblog.page&utm_medium=rss&utm_campaign=indieblog.page"
+  },
   "6bd08f986248d1f20ab35cdced20f0c31c55790521119d6c50e20d76a3629d5b": {
     "first_seen": "2026-06-21T23:08:38.837744+00:00",
     "link": "https://alexbrown.io/blog/hello-world/?utm_source=indieblog.page&utm_medium=rss&utm_campaign=indieblog.page"
@@ -4174,6 +4374,10 @@
   "6c43649d42286d6c03ec8b60efce4d3b5033b3bd43acdafff1c114be74aad01b": {
     "first_seen": "2026-07-05T14:44:50.751032+00:00",
     "link": "https://simonwillison.net/2026/Jul/2/understand-to-participate/#atom-everything"
+  },
+  "6c9e867bf7fccdcca5917b42ce392be2db0a85ef5fcf4cf675db6f3556d2278b": {
+    "first_seen": "2026-11-08T18:14:29.914932+00:00",
+    "link": "https://havn.blog/2026/07/07/the-norwegian-market-has-fixed.html?utm_source=indieblog.page&utm_medium=rss&utm_campaign=indieblog.page"
   },
   "6cb14383ff4a603d1b198246ae760774a9952d01f003f27a762ee5272603b29b": {
     "first_seen": "2026-09-06T16:00:38.809149+00:00",
@@ -4202,6 +4406,10 @@
   "6cd3b80ed9b81c8650d2ea26c9592d315da8748f27e20c79d59a08ab9778b570": {
     "first_seen": "2026-07-05T14:44:50.711284+00:00",
     "link": "https://forwardscattering.org/page/Intuitive%20Quantum%20Electrodynamics"
+  },
+  "6ceb97a0ed8fb663e8d7fe0cf5b905f1f60e92d661a0f88393f564318a37e66b": {
+    "first_seen": "2026-11-08T18:14:29.293813+00:00",
+    "link": "https://www.redblobgames.com/blog/2026-09-27-jujutsu-experience/"
   },
   "6cec40ceabbec5f63392f165f060c99b9b203c268ec463715cd0c7649bc2e247": {
     "first_seen": "2026-11-01T18:17:09.451582+00:00",
@@ -4242,6 +4450,10 @@
   "6d6d661c684a6428063e4ff4d67a6abb31e79a247ffef8fc0ef6bfe2c80c834b": {
     "first_seen": "2026-09-27T17:34:08.015900+00:00",
     "link": "https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/"
+  },
+  "6ddfc1e0e2f2b86ba3f2f055bdbedc95d7d904c55028cf2906375c17984b0e0e": {
+    "first_seen": "2026-11-08T18:14:29.915287+00:00",
+    "link": "https://blog.selinazawacki.com/2026/10/20/bilbos-113th-birthday-party/?utm_source=indieblog.page&utm_medium=rss&utm_campaign=indieblog.page"
   },
   "6e00820ffc29ba0450939d9c8a5c94686ea8a431162fa97f2d58876ed67d9f0d": {
     "first_seen": "2026-06-21T23:08:38.327490+00:00",
@@ -4483,9 +4695,17 @@
     "first_seen": "2026-06-28T14:49:25.649391+00:00",
     "link": "https://the.scapegoat.dev/turning-music-into-a-chore-is-what-made-me-an-artist/"
   },
+  "75414c40661bb35629be26551b6d319b8804901c05df65b86073287697381222": {
+    "first_seen": "2026-11-08T18:14:29.462617+00:00",
+    "link": "https://blog.bosscher.ch/posts/openstick/"
+  },
   "757eac8febe4014b5757c52e6d28189eba1852bcb4bcb217fcc433917b87fc12": {
     "first_seen": "2026-10-25T16:58:32.896009+00:00",
     "link": "https://remysharp.com/links/2026-06-10-f4446f0b?utm_source=indieblog.page&utm_medium=rss&utm_campaign=indieblog.page"
+  },
+  "75a58d08e6a0723f12e5133d536ecb1c17c893e1914888750e8a488efb834a82": {
+    "first_seen": "2026-11-08T18:14:30.076070+00:00",
+    "link": "https://www.autodidacts.io/the-psychology-of-letting-go/"
   },
   "75bb51f89751ebc7078a89ce5efa741f80d15c5cfc79b9a755017254b9de5125": {
     "first_seen": "2026-07-12T16:32:36.519982+00:00",
@@ -4603,6 +4823,10 @@
     "first_seen": "2026-08-16T13:32:04.440942+00:00",
     "link": "https://www.henrikkarlsson.xyz/p/good-ideas"
   },
+  "7901b309ee8500626d96edb289b0ae648b1d7a99b200aa3e18503cb4fb16c1fc": {
+    "first_seen": "2026-11-08T18:14:29.227373+00:00",
+    "link": "https://devblogs.microsoft.com/oldnewthing/20261102-00/?p=112818/"
+  },
   "790b737b3fe92bd7a178e567960bf53831728bb778c7d93bc6906f2632c4650b": {
     "first_seen": "2026-07-19T14:24:01.868382+00:00",
     "link": "https://devblogs.microsoft.com/oldnewthing/20260716-00/?p=112539"
@@ -4694,6 +4918,10 @@
   "7b2efff004017f358a30bfc9193f8d8372cbf3078ddb813aac55f6bed0a63570": {
     "first_seen": "2026-09-13T16:51:38.377265+00:00",
     "link": "https://simonwillison.net/2026/Sep/12/openai-agents-rubygems/"
+  },
+  "7b3cf3f799b916a236d51382da2ba83eeab849dafcaf0e6b9f0974755dffb411": {
+    "first_seen": "2026-11-08T18:14:29.462544+00:00",
+    "link": "https://www.epatters.org/post/e-graphs-1/"
   },
   "7bc027728ff8ee44826d30e26445bb12c6cef7f01b210b9ef88bc07f7627908e": {
     "first_seen": "2026-08-02T14:36:58.744689+00:00",
@@ -4851,6 +5079,10 @@
     "first_seen": "2026-08-23T13:32:48.309797+00:00",
     "link": "https://pluralistic.net/2026/08/20/epistemic-void/"
   },
+  "7f229bfc74361c6033c11f3737d243889a7e330538fc25d7b52185f3cb783a89": {
+    "first_seen": "2026-11-08T18:14:29.915209+00:00",
+    "link": "https://en.nirastich.com/mondstadt-update-5?utm_source=indieblog.page&utm_medium=rss&utm_campaign=indieblog.page"
+  },
   "7f39b5b357a5e9efeda656e5831a7ed921de2be5562d5e6cd7d542f458b05644": {
     "first_seen": "2026-06-21T23:08:38.313778+00:00",
     "link": "https://simonwillison.net/2026/Jun/16/datasette-tailscale/#atom-everything"
@@ -4919,6 +5151,10 @@
     "first_seen": "2026-08-02T14:36:59.491786+00:00",
     "link": "https://aartaka.me/new-menu.html"
   },
+  "809f418f7f57827bbf34d64cee21e74b9a243ade1eaaeb4bc3c35ad5e1f33383": {
+    "first_seen": "2026-11-08T18:14:29.293779+00:00",
+    "link": "https://undeadly.org/cgi?action=article;sid=20261106104957"
+  },
   "80d4e6a816cf56b64b15e9417f7d920947bfd867cd4c36d1c98a49b17a4daa5f": {
     "first_seen": "2026-10-04T17:19:37.266765+00:00",
     "link": "https://devblogs.microsoft.com/oldnewthing/20260930-00/?p=112744/"
@@ -4983,6 +5219,10 @@
     "first_seen": "2026-07-19T14:24:01.837271+00:00",
     "link": "https://simonwillison.net/2026/Jul/16/inkling/#atom-everything"
   },
+  "81d9dcf31ca176f3f914602a2a941ebc76c219039b342cb0273d9e58d3d0d23a": {
+    "first_seen": "2026-11-08T18:14:29.462581+00:00",
+    "link": "https://github.com/synchopate/llama-modchip"
+  },
   "81dbababa3a46d3d2f8ed69707b164a975fd70236f3cddf3655355418f94f30b": {
     "first_seen": "2026-06-28T14:49:26.054109+00:00",
     "link": "https://netwert.com/ideapad/2026/03/06/5566/?utm_source=indieblog.page&utm_medium=rss&utm_campaign=indieblog.page"
@@ -5002,6 +5242,10 @@
   "825063fb8d1ce4cacec7b0ed1eb2b5458d612a34fe80470745231be0e1ced3cb": {
     "first_seen": "2026-10-25T16:58:33.511925+00:00",
     "link": "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras"
+  },
+  "8265b69742e725bac3ffed26d932c4aa15338eb37f3be97e02e34db7a7bf60d3": {
+    "first_seen": "2026-11-08T18:14:29.284065+00:00",
+    "link": "https://simonwillison.net/2026/Nov/4/datasette-apps/"
   },
   "827d855fbddb5cbbcdda470509c5faf73fe7c75068bcec3b04c3e4d7f02a2377": {
     "first_seen": "2026-09-13T16:51:38.377430+00:00",
@@ -5107,6 +5351,10 @@
     "first_seen": "2026-09-06T16:00:39.287644+00:00",
     "link": "https://a.l3x.in/blog/my-travel-setup"
   },
+  "84abc026e0be036a428b093f250559895bf62eef5d91fadbdb37cf2bbf46837c": {
+    "first_seen": "2026-11-08T18:14:29.915127+00:00",
+    "link": "https://gearsco.de/blog/welcome-to-my-mini-blog?utm_source=indieblog.page&utm_medium=rss&utm_campaign=indieblog.page"
+  },
   "84b53cd346d6e1223bac20a636680f539d84f4b35ec8f29c19392588bb8d41cc": {
     "first_seen": "2026-08-16T13:32:02.203807+00:00",
     "link": "https://simonwillison.net/2026/Aug/9/github-models-is-now-retired/"
@@ -5171,6 +5419,10 @@
     "first_seen": "2026-07-19T14:24:02.057983+00:00",
     "link": "https://lobste.rs/s/69mche/what_is_your_favorite_blog_read_recently"
   },
+  "86cdfefa419f564306e5c59494f53ff26d0b04946841cedd009e191fe1a032be": {
+    "first_seen": "2026-11-08T18:14:29.398846+00:00",
+    "link": "https://www.techmeme.com/261103/p15#a261103p15"
+  },
   "86d3bc7092b6e9c6c3e7c5218aef42a6bfe25af7bea38e10c778c1dab08b7c09": {
     "first_seen": "2026-09-06T16:00:38.827169+00:00",
     "link": "https://simonwillison.net/2026/Sep/1/codex-libreoffice/"
@@ -5190,6 +5442,14 @@
   "86eae7f9f5aaa2d0d79502cfdcde60ada4b00196ceedd31a791ac680e2a721bc": {
     "first_seen": "2026-11-01T18:17:09.891507+00:00",
     "link": "https://jaenis.ch/en/blog/2026/what-goes-around-comes-around/?utm_source=indieblog.page&utm_medium=rss&utm_campaign=indieblog.page"
+  },
+  "870849e9b0e91d5781dbd848741eabdae7c7d2a2a51c4d93ea1fbb175e83801c": {
+    "first_seen": "2026-11-08T18:14:29.462520+00:00",
+    "link": "https://taskandpurpose.com/news/drone-mimicking-bird-test/"
+  },
+  "871349ec965b298410875e0d7e71c7be0ed5232305ca2030f1db748f5b718597": {
+    "first_seen": "2026-11-08T18:14:29.398939+00:00",
+    "link": "https://www.theverge.com/tech/1024588/brave-lawsuit-ai-scraping-new-york-times"
   },
   "873eaa3ff786325217f806a5d36feb906f220016ffae43e341e470f893459707": {
     "first_seen": "2026-10-18T16:23:24.708252+00:00",
@@ -5235,6 +5495,10 @@
     "first_seen": "2026-09-20T16:42:17.120270+00:00",
     "link": "https://qwen.ai/blog?id=qwen-image-2.1"
   },
+  "887bae68f7daea44fb9a94c25884e5b39988c6505b88009830819c019fa4e3ff": {
+    "first_seen": "2026-11-08T18:14:29.398554+00:00",
+    "link": "https://www.youtube.com/watch?v=f2GZtWuUPl0"
+  },
   "887e2c78ff15be4e0c1f1a1dc8d120e2753d041be710a4d9edad1edbf33d7fcf": {
     "first_seen": "2026-11-01T18:17:10.381883+00:00",
     "link": "https://pluralistic.net/2026/10/31/burn-berne/"
@@ -5275,6 +5539,10 @@
     "first_seen": "2026-06-21T23:08:38.812872+00:00",
     "link": "https://overreacted.io/there-are-no-instances-in-atproto/"
   },
+  "8a6f032d3f3dd428de4dcb5e9f4fe673cd417e05c2ba679494db766a4e9e3ea5": {
+    "first_seen": "2026-11-08T18:14:29.227346+00:00",
+    "link": "https://devblogs.microsoft.com/oldnewthing/20261104-00/?p=112830/"
+  },
   "8a7751039896192d1362bcc9b4d3d287bfc0e6218bde993ff843ae582047295f": {
     "first_seen": "2026-06-21T23:08:38.327395+00:00",
     "link": "https://devblogs.microsoft.com/oldnewthing/20260618-00/?p=112444"
@@ -5290,6 +5558,10 @@
   "8aca9226a39b79399bedc395d8779b767e378e450b63558949ebfd9c2c0c6cb8": {
     "first_seen": "2026-09-06T16:00:39.287588+00:00",
     "link": "https://bastiangruber.ca/posts/it-matters-who-teaches-you/"
+  },
+  "8b247d2519eb5837119e75a8f5839c2d05ba62673eae3078f7896b0cf7420ac2": {
+    "first_seen": "2026-11-08T18:14:29.462624+00:00",
+    "link": "https://www.newyorkfed.org/medialibrary/media/research/epr/2016/epr_2016_gordon-gekko-effect_lo.pdf"
   },
   "8b2cab1489374fa7ca00ab1ff46a8e2e9c7e7cfa4728b86d8215f65c148ef2d3": {
     "first_seen": "2026-10-18T16:23:24.644738+00:00",
@@ -5411,6 +5683,14 @@
     "first_seen": "2026-09-27T17:34:08.107302+00:00",
     "link": "https://www.mlb.com/news/tigers-ballpark-name-changed-to-fifth-third-park"
   },
+  "8e00ee6e31012191b957b6a6e8897fba1c5e4b7351f0ec3832911121e5173248": {
+    "first_seen": "2026-11-08T18:14:29.293670+00:00",
+    "link": "https://noteflakes.com/articles/2026-11-07-introducing-project-steadfast"
+  },
+  "8e045f834bc11729770362f715129bc42f43a75a60c9fbb98f5b871491d238c1": {
+    "first_seen": "2026-11-08T18:14:29.509214+00:00",
+    "link": "https://bencrowder.net/blog/2026/links-168/"
+  },
   "8e2f74418ac6eebd99d6ebaf019f515ea2fa33a66100b4892b7720166abb83ed": {
     "first_seen": "2026-06-21T23:08:38.837516+00:00",
     "link": "https://www.vzqk50.com/blog/scraps/a-well-known-complaint/?utm_source=indieblog.page&utm_medium=rss&utm_campaign=indieblog.page"
@@ -5454,6 +5734,10 @@
   "8faad838539822086faebaff80d4cd54f1b80b84e926e13da99c07d788b526f3": {
     "first_seen": "2026-08-23T13:32:47.091483+00:00",
     "link": "https://forum.level1techs.com/t/why-your-local-llm-feels-dumber-than-it-is/253917"
+  },
+  "8fbbc27028afdfad518c41521b04b7d073ea5d4bd00d9bb33a3a07cfca79902c": {
+    "first_seen": "2026-11-08T18:14:29.284274+00:00",
+    "link": "https://simonwillison.net/2026/Nov/2/llm/"
   },
   "8feb06d38cf3346b795129788ffcd2ad6689f0b8ee7c319730e6b9b51e3c6113": {
     "first_seen": "2026-08-23T13:32:47.045452+00:00",
@@ -5535,6 +5819,10 @@
     "first_seen": "2026-10-25T16:58:32.658832+00:00",
     "link": "https://daringfireball.net/2026/10/the_iphone_duo"
   },
+  "91c83b53ad89ef3bd204c8337d0a75dd71d258475ee7b4d38dff79f921919ad7": {
+    "first_seen": "2026-11-08T18:14:29.293676+00:00",
+    "link": "https://blog.nspawn.org/posts/nspawn-3-0-a-docker-compatible-engine-api-for-systemd-nspawn-containers/"
+  },
   "91fc730fd9bbf63b1ff60e2c073cae4d3dce437e39d77a44290e70135677ce01": {
     "first_seen": "2026-09-06T16:00:39.254205+00:00",
     "link": "https://kelar.org/~bandali/gnu/emacs/ffs-0.2.2.html?utm_source=indieblog.page&utm_medium=rss&utm_campaign=indieblog.page"
@@ -5563,9 +5851,17 @@
     "first_seen": "2026-09-20T16:42:15.440170+00:00",
     "link": "https://security.apple.com/blog/apple-reference-image/"
   },
+  "9290b60a990ee76f374c1c389ea5380bc7a5490443b77936e39602958943ce8e": {
+    "first_seen": "2026-11-08T18:14:29.462631+00:00",
+    "link": "https://www.windowslatest.com/2026/11/06/every-windows-11-app-should-kill-electron-and-discord-just-showed-why-no-starting-screen-and-70-less-ram-even-with-two-accounts-signed-in/"
+  },
   "92ae98bb7a279ad08ad194ebe924bf51de3293afab9522c690663321f63652a7": {
     "first_seen": "2026-08-30T17:14:26.135182+00:00",
     "link": "https://thedimpau.se/2026/08/09/tunnel.html?utm_source=indieblog.page&utm_medium=rss&utm_campaign=indieblog.page"
+  },
+  "92b269f49682472af2c7f2d2fda0175a6e9e2017b31a8b4730bba5831f7623fd": {
+    "first_seen": "2026-11-08T18:14:29.914955+00:00",
+    "link": "https://www.cobblerandbard.com/considerations-for-selling-books-live-in-person/?utm_source=indieblog.page&amp%3Butm_medium=rss&amp%3Butm_campaign=considerations-for-selling-books-live-in-person&utm_medium=rss&utm_campaign=indieblog.page"
   },
   "92b549588795f076dbc2018f1b831c647c80b4c35ad2e6f05af5845a32d4f96b": {
     "first_seen": "2026-07-12T16:32:36.520446+00:00",
@@ -5627,6 +5923,10 @@
     "first_seen": "2026-06-21T23:08:38.313459+00:00",
     "link": "https://simonwillison.net/2026/Jun/19/sean-lynch/#atom-everything"
   },
+  "93776c9c2a6b392fe84f2651db335868357969d9774f32a640e08a428e2a281d": {
+    "first_seen": "2026-11-08T18:14:29.284306+00:00",
+    "link": "https://simonwillison.net/2026/Nov/2/census-bureau-super-intelligence/"
+  },
   "938998f93dd4bafd71ea93ba5b4287b52a1d40e837f08f2c60931d3bf2bc7221": {
     "first_seen": "2026-07-26T14:37:20.538424+00:00",
     "link": "https://www.youtube.com/watch?v=eXGKK8BkCkg"
@@ -5670,6 +5970,10 @@
   "9476e40ab84bf71fcb7ccc1167b6be7e1335cfb93bc86e5405fcd190b642493b": {
     "first_seen": "2026-08-30T17:14:26.135533+00:00",
     "link": "https://nintil.com/links-96/?utm_source=indieblog.page&utm_medium=rss&utm_campaign=indieblog.page"
+  },
+  "948cd738cccd8f427352713cb28201273c50af19604e6b6d872dd89b27d7ea2b": {
+    "first_seen": "2026-11-08T18:14:29.915310+00:00",
+    "link": "https://xn--gckvb8fzb.com/i-regret-migrating-to-codeberg/?utm_source=indieblog.page&utm_medium=rss&utm_campaign=indieblog.page"
   },
   "950bd40f2251f3f6690824ce71dc4c01d0b0cab1e3a01a9dc5549512509e6bd3": {
     "first_seen": "2026-08-02T14:36:59.242972+00:00",
@@ -5738,6 +6042,10 @@
   "965923277252432094bf4c301bb433e1fc837c186f5494a3777dc80b14d5919c": {
     "first_seen": "2026-09-13T16:51:38.867887+00:00",
     "link": "https://solariz.de/posts/26/homeserver-dying-in-slow-motion/?utm_source=indieblog.page&utm_medium=rss&utm_campaign=indieblog.page"
+  },
+  "967728c40ab19db6cc9cb7858aa4f2470e62bef975fb22013e32179622af536a": {
+    "first_seen": "2026-11-08T18:14:30.076095+00:00",
+    "link": "https://www.autodidacts.io/feeling-the-caffeine-wake-up-your-body/"
   },
   "967f3ff871d91556f7f9a3cdeb1429714a8c38ceb381b3c6dd81e93f60245c1b": {
     "first_seen": "2026-09-13T16:51:38.480501+00:00",
@@ -5999,6 +6307,10 @@
     "first_seen": "2026-07-19T14:24:01.998424+00:00",
     "link": "https://ocw.mit.edu/courses/res-6-011-the-art-of-insight-in-science-and-engineering-mastering-complexity-fall-2014/3bca850386a3005c22134fa62fb3bad5_MITRES_6-011F14_art_insfin.pdf"
   },
+  "9bbbe9a2246944a509cc568711196416d54bdbb80d7d0af9a4ad389014d5183e": {
+    "first_seen": "2026-11-08T18:14:29.293762+00:00",
+    "link": "https://serd.es///2026/11/08/playing-with-stm32mp2.html"
+  },
   "9bec01710ed507368adab7d740a62673029a21ccb2fd785612afd44a462f84c9": {
     "first_seen": "2026-07-26T14:37:20.538408+00:00",
     "link": "https://youtube.com/watch?v=ebqKYLKjL6U"
@@ -6083,6 +6395,10 @@
     "first_seen": "2026-09-27T17:34:08.106277+00:00",
     "link": "https://www.bloomberg.com/news/articles/2026-09-23/meta-debuts-a-dedicated-palm-sized-muse-charm-device-to-use-ai-on-the-go?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc5MDIwNzg4MCwiZXhwIjoxNzkwODEyNjgwLCJhcnRpY2xlSWQiOiJUTFRUVUxUOU5KTFMwMCIsImJjb25uZWN0SWQiOiJDNEVEQ0FFMUZBMDU0MEJFQTI0QTlGMjExQzFFOTA4MCJ9.k7amXXn8zTVQuiTpQIE0Q_IJY9ny_TINEpSrguxIva8&leadSource=article-gifting"
   },
+  "9df95c78e002795e94cb0276b88ca0b90f8128a4f85394464063702041223216": {
+    "first_seen": "2026-11-08T18:14:29.914989+00:00",
+    "link": "https://jessitron.com/2026/06/17/symmathesy-and-ai-with-kent-beck/?utm_source=indieblog.page&utm_medium=rss&utm_campaign=indieblog.page"
+  },
   "9dfaf66638e598a0833ca355c30c184c795ee73f353e4ed291b3257e59d70304": {
     "first_seen": "2026-06-21T23:08:39.780422+00:00",
     "link": "https://pluralistic.net/2026/05/25/lying-spies/"
@@ -6114,6 +6430,10 @@
   "9f3293d0923287b806f631247d980210804c0d9d6a3c7be29ec7010ea5255c8e": {
     "first_seen": "2026-06-28T14:49:25.784412+00:00",
     "link": "https://blog.einval.com/2026/06/27#its_dead_jim"
+  },
+  "9f3dd6e78697732e07ded71dd7c7e7ad342ecd33d60675523e75773e19d94eea": {
+    "first_seen": "2026-11-08T18:14:29.293657+00:00",
+    "link": "https://goldstein.lol/posts/deno-security/"
   },
   "9f42a55c5563db2b60213b2017228677b48715f3c2b9940660b25d4182347910": {
     "first_seen": "2026-06-28T14:49:25.649346+00:00",
@@ -6162,6 +6482,10 @@
   "a008ca5c85bfb75334e9f1c828461502e0c744d989a40c753c3a741b79d2075a": {
     "first_seen": "2026-11-01T18:17:09.891474+00:00",
     "link": "https://nagekar.com/2026/09/a-personal-review-of-the-pilot-v5-pen.html?utm_source=indieblog.page&utm_medium=rss&utm_campaign=indieblog.page"
+  },
+  "a035356df3db802f003d4b5012668dbd9ed81676068134e13df3653869c22897": {
+    "first_seen": "2026-11-08T18:14:30.076139+00:00",
+    "link": "https://www.autodidacts.io/curiosity-traps/"
   },
   "a0387c30013b87ae715100c3aefbbd9c14fc847389edde697de8361c7fb8ba39": {
     "first_seen": "2026-09-20T16:42:17.120350+00:00",
@@ -6295,6 +6619,10 @@
     "first_seen": "2026-06-28T14:49:25.784440+00:00",
     "link": "https://github.com/y5-snowies/nourish"
   },
+  "a44d06db96f736ce28cc99153eccf10ad32dbbb12b9c4c0dbd3895856dd4b4b6": {
+    "first_seen": "2026-11-08T18:14:29.914904+00:00",
+    "link": "https://lowmess.com/blog/interop-2027-picks/?utm_source=indieblog.page&utm_medium=rss&utm_campaign=indieblog.page"
+  },
   "a4509569d0149ce89f22bafeeaf8ac1e996a2fab4070d1da61542cc9acf11c64": {
     "first_seen": "2026-06-21T23:08:38.812758+00:00",
     "link": "https://aggressivelyparaphrasing.me/2026/06/21/effective-use-cases-for-llms/"
@@ -6302,6 +6630,10 @@
   "a4c605263d9034bbb8b527303d287b2af68e9a8f413e090709bf372050d1de86": {
     "first_seen": "2026-08-09T13:50:30.063561+00:00",
     "link": "https://lapcatsoftware.com/articles/2026/7/11.html?utm_source=indieblog.page&utm_medium=rss&utm_campaign=indieblog.page"
+  },
+  "a4fd2fd98a3811e6a3025598466886d289640f47913c081029d147e7a71e6687": {
+    "first_seen": "2026-11-08T18:14:29.398603+00:00",
+    "link": "https://support.apple.com/en-us/149248"
   },
   "a513da44ab7b80f4288e999924063ecf08cc9a51416ec5f02e64c9a43bd3baf6": {
     "first_seen": "2026-07-12T16:32:36.520272+00:00",
@@ -6375,6 +6707,10 @@
     "first_seen": "2026-10-11T17:55:16.285777+00:00",
     "link": "https://sunnny.com/"
   },
+  "a708cc9e1525f78f31e719bb4d287915afe340721df205656900f47637a19224": {
+    "first_seen": "2026-11-08T18:14:29.462603+00:00",
+    "link": "https://eli.thegreenplace.net/2025/making-any-integer-with-four-2s/"
+  },
   "a747e45677404a77ff5ea62f8f74b7b3ffe82be7040055c17f44e582a2dd2898": {
     "first_seen": "2026-09-13T16:51:38.377343+00:00",
     "link": "https://simonwillison.net/2026/Sep/11/boris-cherny/"
@@ -6426,6 +6762,10 @@
   "a9458aca1e420941dae9cd8f3f797ad159bab46dbf0d95231b2821adf90c525a": {
     "first_seen": "2026-07-12T16:32:35.978953+00:00",
     "link": "https://devblogs.microsoft.com/oldnewthing/20260706-00/?p=112506"
+  },
+  "a95b6f65281294306cc0ff26bfb8eca5f85232d0251520d127ab85171378ef59": {
+    "first_seen": "2026-11-08T18:14:29.398635+00:00",
+    "link": "https://www.wsj.com/politics/policy/trump-signs-proclamation-he-says-will-protect-oval-office-from-major-changes-93f3285b"
   },
   "a97719309c6788c1d744c9a11272cbb5d246cf9787f3626e6a051f8073f359f8": {
     "first_seen": "2026-08-23T13:32:47.178280+00:00",
@@ -6483,6 +6823,10 @@
     "first_seen": "2026-09-27T17:34:07.851287+00:00",
     "link": "https://arxiv.org/abs/2609.22978"
   },
+  "aac81467646f1d039bd25b6e95c3bacf1c2e7e857ea227b6e0b04ff7fb5729cc": {
+    "first_seen": "2026-11-08T18:14:29.284104+00:00",
+    "link": "https://simonwillison.net/2026/Nov/3/llm/"
+  },
   "aace6aea2b81e019d8d457abd87b25e5ca485cf65a5904d2d36bccb7772d9c7c": {
     "first_seen": "2026-08-16T13:32:02.203783+00:00",
     "link": "https://simonwillison.net/2026/Aug/9/claude-opus-5-system-prompt/"
@@ -6526,6 +6870,10 @@
   "abb669821f7fd1fdf055da92385e683df2669e983c78a37c2c297bc171b04b90": {
     "first_seen": "2026-06-28T14:49:25.649399+00:00",
     "link": "https://decomp-academy.dev"
+  },
+  "abbb96cf14716a168d8896a47f6e56f40f84940bb7862f38c7f2421c72f9eb4d": {
+    "first_seen": "2026-11-08T18:14:29.284088+00:00",
+    "link": "https://simonwillison.net/2026/Nov/3/datasette-agent/"
   },
   "abbfea7aa0789a5ddea1401b8e4e0c9408e74f0e342d48d9022600ac10d8a3da": {
     "first_seen": "2026-07-19T14:24:01.837892+00:00",
@@ -6903,6 +7251,10 @@
     "first_seen": "2026-07-05T14:44:50.847692+00:00",
     "link": "https://vanzasetia.xyz/blog/guide-css-custom-property/?utm_source=indieblog.page&utm_medium=rss&utm_campaign=indieblog.page"
   },
+  "b520860fbf0eb7c6425527bace902b8b8c790d9d767f105ff3575d14855eae8e": {
+    "first_seen": "2026-11-08T18:14:29.914862+00:00",
+    "link": "https://eviltrout.com/blog/2026-08-21-tips-for-saving-game-data-in-godot/?utm_source=indieblog.page&utm_medium=rss&utm_campaign=indieblog.page"
+  },
   "b55ff3e2a7b61a3c7602fa5c1ba6b96df7ab3709d6949a4d92af7db32feb9a73": {
     "first_seen": "2026-08-23T13:32:47.000214+00:00",
     "link": "https://www.seangoedecke.com/you-should-never-be-angry-at-work/"
@@ -7167,6 +7519,10 @@
     "first_seen": "2026-07-12T16:32:35.916345+00:00",
     "link": "https://simonwillison.net/2026/Jul/7/sqlite-migrate/#atom-everything"
   },
+  "bc44cfc127fab89b6224af0ff7cee4eeb2e3afc4c481f299d5673f873ed9f725": {
+    "first_seen": "2026-11-08T18:14:29.837733+00:00",
+    "link": "https://aartaka.me/teeny.html"
+  },
   "bc4ce9d50d9b33de55f2155003830554f99f3d6528bc60cb5a427280f6257ea7": {
     "first_seen": "2026-09-20T16:42:14.879087+00:00",
     "link": "https://simonwillison.net/2026/Sep/16/one-claude/"
@@ -7214,6 +7570,10 @@
   "bd27f795c0ecde14c2553f054d94ca390c956c3693f3a575528972c47ca39d72": {
     "first_seen": "2026-09-06T16:00:39.175449+00:00",
     "link": "https://github.com/scastiel/kado"
+  },
+  "bd335fd6904fd8826ce2fe8bcd58500c2191eb3d1f881dad6d80d3592bc01619": {
+    "first_seen": "2026-11-08T18:14:29.398592+00:00",
+    "link": "https://daringfireball.net/2026/11/touch_and_glow"
   },
   "bd5ae9b0aa0f7e5507ad17412d2e021b6d1b5f1fe29dbe8b7e151b8e00e3a368": {
     "first_seen": "2026-07-12T16:32:36.138307+00:00",
@@ -7287,6 +7647,10 @@
     "first_seen": "2026-10-25T16:58:33.841544+00:00",
     "link": "https://pluralistic.net/2026/10/21/brittle-individualism/"
   },
+  "bf1b9c4dcbcaa33876e68b1e52fec54bc9e9266d748484c7ea89d1e092cd6763": {
+    "first_seen": "2026-11-08T18:14:29.293807+00:00",
+    "link": "https://www.epatters.org/post/e-graphs-1/"
+  },
   "bf2df5dcf49b67af6f48e8aba6b155dcec8ab9afa8a6f89397f78dc108455e4a": {
     "first_seen": "2026-10-04T17:19:37.543969+00:00",
     "link": "https://x.com/viditb/status/2104103592726765722"
@@ -7350,6 +7714,18 @@
   "c08bda2a227277a4f03cf52d92b4e5207d22e73294a40d7e003a5ce63ce0f4d6": {
     "first_seen": "2026-10-18T16:23:24.708124+00:00",
     "link": "https://www.washingtonpost.com/investigations/2026/10/15/secret-documents-reveal-donors-behind-330-million-trumps-ballroom/"
+  },
+  "c0da77d4244ee6f1dc53d45ae0886d89d78b82ac2c11b6227e562c896a58e564": {
+    "first_seen": "2026-11-08T18:14:29.293751+00:00",
+    "link": "https://link.springer.com/article/10.1007/s10664-026-10988-z"
+  },
+  "c0e1d9f7f381844cdb338c5c93689a00dd10254b67967162b0535cb4b2c84913": {
+    "first_seen": "2026-11-08T18:14:29.398886+00:00",
+    "link": "https://www.youtube.com/watch?v=g6Die8gVFn0"
+  },
+  "c0f427c62ec2d6535feefb730621cdce6d5cbd6500d033c0b333d0c1e0eeeec9": {
+    "first_seen": "2026-11-08T18:14:29.837758+00:00",
+    "link": "https://aartaka.me/tarot/monsoon.html"
   },
   "c10e7fdb6eb2b41feffb8922c7a18fcab648b1a1b6b846c91dc40e823b09922a": {
     "first_seen": "2026-10-18T16:23:24.926119+00:00",
@@ -7615,6 +7991,10 @@
     "first_seen": "2026-09-27T17:34:08.015855+00:00",
     "link": "https://simonwillison.net/2026/Sep/23/shadow-roots/"
   },
+  "c82233809ec6d7b0eb7dc82b1881aa990a296ca24b293f29906b08916d986b33": {
+    "first_seen": "2026-11-08T18:14:29.293739+00:00",
+    "link": "https://jmmv.dev/2026/11/zkeys-intro.html"
+  },
   "c84f13a68bb7fb8a641a197d6bacd13bd4ebecc661da4326cc28c2721d171b33": {
     "first_seen": "2026-09-06T16:00:39.287691+00:00",
     "link": "https://www.youtube.com/watch?v=SxdOUGdseq4"
@@ -7658,6 +8038,10 @@
   "c8fe4a2cb8bfd444d8c341a2ddd959e53083525188f1e6d85bd46e8d31a2b110": {
     "first_seen": "2026-08-09T13:50:29.883476+00:00",
     "link": "https://simonwillison.net/2026/Aug/4/llm/#atom-everything"
+  },
+  "c90d7583d1b46f134697417e7c4a6ddc251788491757461b8bad6561afac6aca": {
+    "first_seen": "2026-11-08T18:14:30.076145+00:00",
+    "link": "https://www.autodidacts.io/listening-to-music-as-an-active-process/"
   },
   "c90f6017b5f4c94134df94e89013e26ead1a01da3ca5e7599f93beb42cfc8c5e": {
     "first_seen": "2026-10-04T17:19:37.973548+00:00",
@@ -7762,6 +8146,10 @@
   "cb4b4cdb0ffad16d3211f9ec5f8e7c6a45b447f7e70aa660914cec2f2b5cdd98": {
     "first_seen": "2026-08-23T13:32:47.000340+00:00",
     "link": "https://akselmo.dev/posts/kde-linux-experiences/"
+  },
+  "cb684844e1176ee652ae656166eaead5f6d6e5b4473eb1c061b656e7c69e413d": {
+    "first_seen": "2026-11-08T18:14:29.398788+00:00",
+    "link": "https://www.wsj.com/politics/elections/a-political-reckoning-shatters-trumps-grip-on-washington-bd3c7705?st=xABDit"
   },
   "cb7276f8f14bab4551ac7365adfe9516dbbefd4689f9efdb0c26e8a9b11af069": {
     "first_seen": "2026-08-30T17:14:26.135234+00:00",
@@ -7875,6 +8263,10 @@
     "first_seen": "2026-07-26T14:37:20.538480+00:00",
     "link": "https://eieio.games/blog/im-running-the-icfp-programming-contest/"
   },
+  "ce58a06ff55adbbdb01ec84d802a67ab41029e031b42418ae043f2158c76a705": {
+    "first_seen": "2026-11-08T18:14:29.462596+00:00",
+    "link": "https://caleb.software/posts/claude-to-pi.html"
+  },
   "ce7a87104920461389e7d220b91ddec026a4c49092b84f4d2703bcdb9bf711dc": {
     "first_seen": "2026-09-06T16:00:38.827281+00:00",
     "link": "https://simonwillison.net/2026/Sep/1/tarn-adams/"
@@ -7902,6 +8294,14 @@
   "cec5bfecb0d628a814cda181e8ef8b59097ff41b182e874151785ada4b4a9710": {
     "first_seen": "2026-07-12T16:32:36.138290+00:00",
     "link": "https://entropicthoughts.com/sicp-2-4-data-directed-programming-in-haskell"
+  },
+  "ced1b217f436526e67a08a423e089c60124c34c21557fd6274885bded2d8c9a6": {
+    "first_seen": "2026-11-08T18:14:29.293615+00:00",
+    "link": "https://amutable.com/blog/systemd-loves-rust"
+  },
+  "cedc8927dfa936e78c665d1d8bd6ff0b4af7410e4a9c54ff6eefa6d8a0cd2e29": {
+    "first_seen": "2026-11-08T18:14:29.227285+00:00",
+    "link": "https://devblogs.microsoft.com/oldnewthing/20261106-00/?p=112838/"
   },
   "cf0ca466c859ca8618d4ceb849e5071323b9e6aadbba196101e156ec01c3914a": {
     "first_seen": "2026-06-28T14:49:25.841201+00:00",
@@ -8055,6 +8455,10 @@
     "first_seen": "2026-09-06T16:00:39.965678+00:00",
     "link": "https://feed.tedium.co/link/15204/17438215/mapquest-unexpected-revival"
   },
+  "d2f24eb2486dd46556c09c0df22efadd640e15b2503fbc3e62f1edb5a97f2a8c": {
+    "first_seen": "2026-11-08T18:14:29.915109+00:00",
+    "link": "https://lethain.com/software-factory-experiment/?utm_source=indieblog.page&utm_medium=rss&utm_campaign=indieblog.page"
+  },
   "d2f317596e34419e93367df523644c34a3277403a3540664ed2fb80cdcf6a300": {
     "first_seen": "2026-10-25T16:58:32.607700+00:00",
     "link": "https://www.raptitude.com/2026/10/everyone-is-made-of-glass/"
@@ -8062,6 +8466,10 @@
   "d2f54a62b6cb3ee0299786bd5fcd79549887c8e7d934e790f7b44d5de6d9d7d5": {
     "first_seen": "2026-10-18T16:23:24.926103+00:00",
     "link": "https://maevyn.codes/decoherence"
+  },
+  "d30e16226286075876bd09c759a11a9ad707326231f0593b4c6cb6a4a8a76a06": {
+    "first_seen": "2026-11-08T18:14:29.914968+00:00",
+    "link": "https://kokkomaki.com/posts/what-opensats-left-me-with/?utm_source=indieblog.page&utm_medium=rss&utm_campaign=indieblog.page"
   },
   "d30fedd57d0035674f1537181bb5fc75a628b88e0f11e0bbd2757827cd659dc5": {
     "first_seen": "2026-08-09T13:50:29.741970+00:00",
@@ -8283,6 +8691,10 @@
     "first_seen": "2026-06-28T14:49:25.784500+00:00",
     "link": "https://www.youtube.com/watch?v=OBUzl_IaWIw"
   },
+  "d828a652d6bf85ab9a801acbca245f6025f90b0287e8ebd83e117805f780915e": {
+    "first_seen": "2026-11-08T18:14:29.462589+00:00",
+    "link": "https://www.lorekit.io/blog/open-agent-memory-format"
+  },
   "d82f5875badeb539affb360b98a06475fca7a1ad22944ea49e64f272c044e855": {
     "first_seen": "2026-08-23T13:32:46.651554+00:00",
     "link": "https://simonwillison.net/2026/Aug/18/mojo-is-now-open-source/"
@@ -8375,6 +8787,10 @@
     "first_seen": "2026-10-18T16:23:24.754868+00:00",
     "link": "https://legendofhyrule.com/"
   },
+  "db8aad7567ee0d78097e3d53f7edfb10de6ca41078bc2a35030bd6ef7333a267": {
+    "first_seen": "2026-11-08T18:14:29.284004+00:00",
+    "link": "https://simonwillison.net/2026/Nov/6/nilay-patel/"
+  },
   "db8e0bc8a6805f07742c439946e828c0c9f05adb0adb9b94262f1f1b53d5e6fc": {
     "first_seen": "2026-09-06T16:00:38.875877+00:00",
     "link": "https://simonwillison.net/2026/Sep/3/gpt6-astra/"
@@ -8443,6 +8859,14 @@
     "first_seen": "2026-10-04T17:19:37.470892+00:00",
     "link": "https://notoriousbfg.com/hole-punch/"
   },
+  "dcdb852cf6b69f42c6052ed3a39c59d160c1db7259940273b957a4194699be09": {
+    "first_seen": "2026-11-08T18:14:29.462552+00:00",
+    "link": "https://krthr.co/person-of-interest/"
+  },
+  "dcf65f4aed7f78c16de0aee493912ccf5f4d99904ed626a7019a66983da9b61e": {
+    "first_seen": "2026-11-08T18:14:29.284241+00:00",
+    "link": "https://simonwillison.net/2026/Nov/3/a-sound-that-leaks-your-exact-location/"
+  },
   "dcf7bb167b0dcd2f19b87c44e5525eb5fff12c6f63f071e6029c4ed91de08dd7": {
     "first_seen": "2026-10-25T16:58:33.511972+00:00",
     "link": "https://www.speedcrunch.org/"
@@ -8479,6 +8903,10 @@
     "first_seen": "2026-10-04T17:19:37.454389+00:00",
     "link": "https://simonwillison.net/2026/Sep/28/joedaroo/"
   },
+  "ddd8b732d36df512f26910ae3301e72920148f446789aaf3741adc99d16be7bc": {
+    "first_seen": "2026-11-08T18:14:29.398963+00:00",
+    "link": "https://www.macworld.com/article/208438/jobs_transcript.html"
+  },
   "de0929ce13194ee9fee8047e7df399053687d73d1035280427bae2fc18a12e0c": {
     "first_seen": "2026-10-25T16:58:32.659261+00:00",
     "link": "https://workos.com/?utm_source=daringfireball&utm_medium=newsletter&utm_campaign=q42026"
@@ -8506,6 +8934,14 @@
   "de66d2b2ba6bc7df4a4f0a99e2a8f88edb57f44bd44d52c5b4a15a60b974eb84": {
     "first_seen": "2026-09-06T16:00:39.175597+00:00",
     "link": "https://cloudinabottle.org/blog/launch-post"
+  },
+  "de959bab941149a96f431c495c0f83c380a84927c02033f61b64e814a1911b9b": {
+    "first_seen": "2026-11-08T18:14:29.284259+00:00",
+    "link": "https://simonwillison.net/2026/Nov/3/october-newsletter/"
+  },
+  "dea33b03a9a9e2260bbfae915d970fb0e207b4b4f81e81fcdfa29312544c7022": {
+    "first_seen": "2026-11-08T18:14:29.399029+00:00",
+    "link": "https://9to5mac.com/2026/11/03/apple-ceo-john-ternus-criticized-for-scripted-approach-to-first-earnings-call/"
   },
   "dea9642b665a227f3ecf8363114f8005b755fb5ae953419b1feff07cd925f7c3": {
     "first_seen": "2026-07-19T14:24:02.212288+00:00",
@@ -8535,6 +8971,10 @@
     "first_seen": "2026-09-27T17:34:08.124172+00:00",
     "link": "https://ahelwer.ca/post/2026-09-26-reachability/"
   },
+  "df7414a7b9a357c959962ac5213e3578a95c5763d5d930ea9f7833cf51120e8b": {
+    "first_seen": "2026-11-08T18:14:29.462459+00:00",
+    "link": "https://www.bloomberg.com/features/2026-police-phone-tracking-advertising-tech/"
+  },
   "df8ef691f1491d06628b533c3b3dbaa56aede0bd9ec28c8733db5d32978898a7": {
     "first_seen": "2026-10-04T17:19:37.565655+00:00",
     "link": "https://git.btxx.org/grubby"
@@ -8558,6 +8998,14 @@
   "e06e39b3cf24bd41be04f0e48c9e89bb680bdf9ab5e3358d87feda409215d2dd": {
     "first_seen": "2026-10-11T17:55:16.465843+00:00",
     "link": "https://nerdyelectronics.com/mars-pathfinder-what-really-happened/"
+  },
+  "e07ee0d8c573ed92da2bf43501e70e4960902efd419447c30dae23bd1ef7ecf7": {
+    "first_seen": "2026-11-08T18:14:29.293785+00:00",
+    "link": "https://vincent.bernat.ch/en/blog/2026-bunny-geodns"
+  },
+  "e08058b47f6f3ff191662e1ca352e61cb8cf39d68108410911245d56b75266db": {
+    "first_seen": "2026-11-08T18:14:29.462528+00:00",
+    "link": "https://247wallst.com/investing/2026/11/07/openai-just-raised-11-billion-at-a-1-25-trillion-valuation-below-the-1-4-trillion-it-first-sought/"
   },
   "e09ad07be3d2c008f6d06a1b163caf321abe0f5764d7c47ef2dd60bb9c8f5238": {
     "first_seen": "2026-09-27T17:34:08.123996+00:00",
@@ -8747,6 +9195,10 @@
     "first_seen": "2026-08-16T13:32:02.673659+00:00",
     "link": "https://eliasfarhan.ch/gamedev/cpp/2026/08/14/srnative-01-why-a-custom-engine.html"
   },
+  "e4c4882bba33f524917d12631cae0b7786b1336bb8aebace6491ac091afb86d3": {
+    "first_seen": "2026-11-08T18:14:29.227361+00:00",
+    "link": "https://devblogs.microsoft.com/oldnewthing/20261103-00/?p=112825/"
+  },
   "e4c73d0916597d05450b953e113e133ea2e465ef689ea995eee20710618bbcb8": {
     "first_seen": "2026-10-04T17:19:37.565795+00:00",
     "link": "https://gvisor.dev/blog/2026/10/02/gvisor-cncf/"
@@ -8798,6 +9250,10 @@
   "e609fbbc1632c82d3def0d1fe756bb4743dbed1fe3448dedcee33883895eb39c": {
     "first_seen": "2026-08-23T13:32:47.177648+00:00",
     "link": "https://burgeonlab.com/blog/date-objects-hugo-javascript-node/?utm_source=indieblog.page&utm_medium=rss&utm_campaign=indieblog.page"
+  },
+  "e60f58e982d72d18fa818bddf725cd75f70103f99666e5156754cf7000900d78": {
+    "first_seen": "2026-11-08T18:14:29.462574+00:00",
+    "link": "http://muratbuffalo.blogspot.com/2026/11/writing-as-thinking-tool.html"
   },
   "e63d8aedb7203098346130da7548b1e12dded57ddd0884073e89a54f8b9bb8c3": {
     "first_seen": "2026-08-16T13:32:04.440899+00:00",
@@ -9043,6 +9499,10 @@
     "first_seen": "2026-08-02T14:36:59.255277+00:00",
     "link": "https://blog.rust-lang.org/inside-rust/2026/07/31/all-hands-2026-retrospective/"
   },
+  "ec3c00862b97651942bd5cf58eb431c5bf0a6dc6ff82a29bb1a5394a38083212": {
+    "first_seen": "2026-11-08T18:14:29.398664+00:00",
+    "link": "https://www.salon.com/2026/11/05/goodbye-from-salon/"
+  },
   "ec4419aa5bce69dddb1a95522d6c3ec3df65f4729df1ec50a5be1c2940107f38": {
     "first_seen": "2026-07-26T14:37:20.687175+00:00",
     "link": "https://binaryigor.com/json-documents-mongodb-vs-postgresql.html?utm_source=indieblog.page&utm_medium=rss&utm_campaign=indieblog.page"
@@ -9123,6 +9583,10 @@
     "first_seen": "2026-10-04T17:19:37.470853+00:00",
     "link": "https://ben.stolovitz.com/posts/reasons-not-emt-ranked/"
   },
+  "ee1330491dc515591b58f51c809385de05515420ed76b2b81823a4ec01727a8d": {
+    "first_seen": "2026-11-08T18:14:29.915171+00:00",
+    "link": "https://karagila.org/2026/openai-pp/?utm_source=indieblog.page&utm_medium=rss&utm_campaign=indieblog.page"
+  },
   "ee1b2683932767afbdf2012c0d58956b51c2ca4efe4b6adcab361dfc30b9b7fc": {
     "first_seen": "2026-09-27T17:34:08.106764+00:00",
     "link": "https://daringfireball.net/2026/09/iphone_4_antennagate_q_and_a"
@@ -9154,6 +9618,10 @@
   "eed765dcf13ed3d78710d552ca821d14de45016973b52582cc9994a3919f6128": {
     "first_seen": "2026-10-04T17:19:37.565665+00:00",
     "link": "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/"
+  },
+  "eedd2ac04fb73a4967db93de965c03156d06c1d7da7827cd9432569bb48179b3": {
+    "first_seen": "2026-11-08T18:14:29.399130+00:00",
+    "link": "https://ourcal.com/?utm_source=daringfireball&utm_medium=sponsorship&utm_content=rssitem"
   },
   "eee7bb8343e243f330fee50f4bb5a6ca36636180860a64f4a732b9d36e3a47ba": {
     "first_seen": "2026-10-04T17:19:37.973598+00:00",
@@ -9259,6 +9727,10 @@
     "first_seen": "2026-09-27T17:34:07.851086+00:00",
     "link": "https://unsung.aresluna.org/they-had-no-concept-of-a-duty-of-care-to-their-users/"
   },
+  "f1a111e72742f0df3d87170744905f30e0f5c3f2747ffe8f1c7993b540d8d137": {
+    "first_seen": "2026-11-08T18:14:29.284115+00:00",
+    "link": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/"
+  },
   "f1b0694e286ecb7db09ec25fbe71e7f566dbb10b0ef2acddacad61d253382b69": {
     "first_seen": "2026-10-11T17:55:16.285790+00:00",
     "link": "https://openai.com/index/eu-text-provenance/"
@@ -9303,6 +9775,10 @@
     "first_seen": "2026-09-27T17:34:08.515268+00:00",
     "link": "https://jamie.ideasasylum.com/2026/06/20/saas-is-dead?utm_source=indieblog.page&utm_medium=rss&utm_campaign=indieblog.page"
   },
+  "f25322e92f8c1ef3042596f586e26282ba8e9ca366a1e19261d9bbac5e179a34": {
+    "first_seen": "2026-11-08T18:14:29.462512+00:00",
+    "link": "https://www.nytimes.com/2026/11/07/science/space/holley-bockelmann-astrophysicist-space-trump.html"
+  },
   "f26c96cfcb192832119b38547ec2118a76794cefbf432df301644a571a92e972": {
     "first_seen": "2026-06-28T14:49:25.841324+00:00",
     "link": "https://simonwillison.net/2026/Jun/22/prompt-injection-as-role-confusion/#atom-everything"
@@ -9335,6 +9811,10 @@
     "first_seen": "2026-09-13T16:51:38.637459+00:00",
     "link": "https://www.youtube.com/watch?v=DjhRRj6WYcs"
   },
+  "f391402a4c0f264ea899efce07d6eb169521ec47216f2e9d2dbbcb6b2d6f0f48": {
+    "first_seen": "2026-11-08T18:14:29.293727+00:00",
+    "link": "https://opensourcesecurity.io/2026/10-embargo/"
+  },
   "f4006669ac4434d92d39a07d3be023519c6aefc0f093ddf201f98a3136433af0": {
     "first_seen": "2026-07-12T16:32:35.916078+00:00",
     "link": "https://simonwillison.net/2026/Jul/8/kenton-varda/#atom-everything"
@@ -9355,6 +9835,10 @@
     "first_seen": "2026-06-28T14:49:25.784447+00:00",
     "link": "https://www.phoronix.com/news/Linux-72-Faster-Anon-Pipe-Write"
   },
+  "f41267d075403fb4e3157515dfeceb7b1079fb658014fb2c4c30962d6741eb1d": {
+    "first_seen": "2026-11-08T18:14:29.941764+00:00",
+    "link": "https://pluralistic.net/2026/11/07/aeiou-but-sometimes-why/"
+  },
   "f423323218fe770047b56442835c930a2407a774771ab100923659a912f00c4e": {
     "first_seen": "2026-10-25T16:58:32.496016+00:00",
     "link": "https://refi64.dev/posts/chromium-audio-break.html"
@@ -9374,6 +9858,10 @@
   "f4a363a1e2a61148ad57a6e3bd67ed2e8374c00440949024d689018f6e136d0f": {
     "first_seen": "2026-09-13T16:51:38.867915+00:00",
     "link": "https://mfashby.net/posts/2026-04-09-immich-fail/?utm_source=indieblog.page&utm_medium=rss&utm_campaign=indieblog.page"
+  },
+  "f4d365c7a75c0831be3bd855b97e8e0876972be4e7f8c0886960359162b994ca": {
+    "first_seen": "2026-11-08T18:14:30.704239+00:00",
+    "link": "https://bubbles.town/weekly/2026-11-08"
   },
   "f4eccdce0a1a863b291ad74e9fbc2a2f7245f44206b260b10633c047231bc89f": {
     "first_seen": "2026-06-28T14:49:25.649337+00:00",
@@ -9575,6 +10063,10 @@
     "first_seen": "2026-07-26T14:37:20.397579+00:00",
     "link": "https://simonwillison.net/2026/Jul/20/sam-altman/#atom-everything"
   },
+  "f8873ecf07fa70c99d3c5e6c35bd74a2b225312ef3b097911671a4bc220e80f4": {
+    "first_seen": "2026-11-08T18:14:29.399097+00:00",
+    "link": "https://sixcolors.com/post/2026/11/apple-announces-record-114-5b-fourth-quarter-results/"
+  },
   "f890fa493de6fd2066286dba85bcf88aeed2a30ee7c08e374502396081bf1edd": {
     "first_seen": "2026-07-12T16:32:38.384036+00:00",
     "link": "https://mrbruh.com/motorola/"
@@ -9675,6 +10167,10 @@
     "first_seen": "2026-08-30T17:14:26.111163+00:00",
     "link": "https://smoores.dev/post/automating_immersive_reading/"
   },
+  "fc43276274b2e04e6838fcc6565e04515c9a6bd590309cfbc5cf301750812de4": {
+    "first_seen": "2026-11-08T18:14:29.915243+00:00",
+    "link": "https://rachitsingh.com/reading/token-balancing/?utm_source=indieblog.page&utm_medium=rss&utm_campaign=indieblog.page"
+  },
   "fc4a65b083b7c252f15bb27ff5602d878820023abd708bca0184afda86cab060": {
     "first_seen": "2026-06-28T14:49:26.054020+00:00",
     "link": "https://textslashplain.com/2026/04/28/smart-app-control/?utm_source=indieblog.page&utm_medium=rss&utm_campaign=indieblog.page"
@@ -9771,6 +10267,10 @@
     "first_seen": "2026-10-11T17:55:16.988026+00:00",
     "link": "https://unterwaditzer.net/2026/github-notifications.html?utm_source=indieblog.page&utm_medium=rss&utm_campaign=indieblog.page"
   },
+  "fe1f6a98c50b61102525fdc5f0ef63ad605badfd66f1392a72294512d94c4a9e": {
+    "first_seen": "2026-11-08T18:14:29.283960+00:00",
+    "link": "https://simonwillison.net/2026/Nov/7/link-rel-next/"
+  },
   "fe2501a86f4bea116c330a73060e1e63392f3d9431f9b899378d761eb59d8279": {
     "first_seen": "2026-07-05T14:44:50.640550+00:00",
     "link": "https://devblogs.microsoft.com/oldnewthing/20260703-00/?p=112504"
@@ -9806,6 +10306,10 @@
   "ff026524965453950e1aad7ede9d53b72ce4e98a446b23662763da7f2429f4d8": {
     "first_seen": "2026-10-04T17:19:37.470751+00:00",
     "link": "https://github.com/Niko1221/Strata"
+  },
+  "ff14400f2913b0a2ac034ce7f1f006cb09e9d56d858efdc947343477caa4ec92": {
+    "first_seen": "2026-11-08T18:14:29.284038+00:00",
+    "link": "https://simonwillison.net/2026/Nov/5/paul-ford/"
   },
   "ff3caee59d84de0db16a8238fd2fc333ce4860ff5baa8181a906f99a444bb1c0": {
     "first_seen": "2026-08-30T17:14:26.135387+00:00",
